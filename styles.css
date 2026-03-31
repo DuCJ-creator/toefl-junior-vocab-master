@@ -124,8 +124,13 @@ header {
 /* Category Grid */
 .dashboard-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.main-modules.dashboard-grid {
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  justify-content: center;
 }
 
 .category-card {
@@ -133,44 +138,58 @@ header {
   background: var(--bg-card);
   backdrop-filter: blur(12px);
   border: 1px solid var(--glass-border);
-  border-radius: 1.5rem;
-  padding: 2rem;
+  border-radius: 2rem;
+  padding: 2.5rem 2rem;
   cursor: pointer;
   transition: all var(--transition-speed) cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
   box-shadow: var(--glass-shadow);
+  display: flex;
+  flex-direction: column;
+}
+
+.module-card {
+  height: 280px;
+  justify-content: center;
+  border-width: 2px;
 }
 
 .category-card:hover {
-  transform: translateY(-5px);
-  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-8px) scale(1.02);
+  border-color: var(--accent-gold);
   background: rgba(30, 41, 59, 0.5);
 }
 
 .category-tag {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 1rem;
+  left: 1.5rem;
   background: var(--accent-gold);
   color: var(--bg-dark);
-  padding: 0.4rem 1rem;
-  font-size: 0.7rem;
-  font-weight: 700;
-  border-bottom-right-radius: 1rem;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.65rem;
+  font-weight: 800;
+  border-radius: 99px;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
 }
 
 .category-name {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 700;
   margin-top: 1rem;
-  line-height: 1.4;
+  line-height: 1.2;
+}
+
+.module-card .category-name {
+  font-size: 2rem;
 }
 
 .category-stats {
-  margin-top: 1.5rem;
-  font-size: 0.875rem;
+  margin-top: auto;
+  padding-top: 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
   color: var(--text-muted);
 }
 
@@ -269,6 +288,7 @@ header {
   font-weight: 700;
   margin-bottom: 1rem;
   background: linear-gradient(to right, #fff, #94a3b8);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

@@ -36,26 +36,29 @@ def parse_sheet(zf, shared_strings):
 
 def rc_sort_key(filename):
     name = filename.lower()
-    # 1. Preface
     if "preface" in name: return (0, 0)
-    # 2. Diagnostic
     if "diagnostic" in name: return (1, 0)
-    # 3. Strategies (1-9)
     if "strategy" in name:
         num_match = re.search(r'strategy (\d+)', name)
         num = int(num_match.group(1)) if num_match else 99
         return (2, num)
-    # 4. To Meet
     if "to meet" in name or "to meet" in name.replace("meet", "meet "):
         num_match = re.search(r'(\d+)', name)
         num = int(num_match.group(1)) if num_match else 99
         return (3, num)
-    # 5. To Exceed
     if "to exceed" in name or "to exceed" in name.replace("exceed", "exceed "):
         num_match = re.search(r'(\d+)', name)
         num = int(num_match.group(1)) if num_match else 99
         return (4, num)
     return (5, name)
+
+def is_grammatical_label(text):
+    labels = ["n.", "v.", "adj.", "adv.", "prep.", "conj.", "pron.", "num.", "art.", "int.", "(pl.)", "(adj.)", "(v.)", "(adv.)", "pos"]
+    text_clean = str(text).lower().strip()
+    return any(text_clean == l or text_clean.startswith(l + " ") or text_clean.endswith(" " + l) for l in labels)
+
+def has_chinese(text):
+    return any(u'\u4e00' <= char <= u'\u9fff' for char in str(text))
 
 def process_all_materials(base_path):
     modules = {
@@ -71,7 +74,6 @@ def process_all_materials(base_path):
         elif "LFM" in filename: files_by_module["LFM"].append(filename)
         else: files_by_module["RC"].append(filename)
 
-    # Sort RC specifically
     files_by_module["RC"].sort(key=rc_sort_key)
     files_by_module["LC"].sort()
     files_by_module["LFM"].sort()
@@ -88,11 +90,19 @@ def process_all_materials(base_path):
                     for row in rows:
                         word = str(row.get('A', '')).strip()
                         if not word or word.lower() in ['word', 'no.', 'no']: continue
-                        # COLUMN MAPPING (A:Word, B:POS, C:Meaning, D:EnSent, E:ZhSent)
+                        
+                        pos = str(row.get('B', '')).strip()
+                        meaning = str(row.get('C', '')).strip()
+                        
+                        # INTELLIGENT AUTO-SWAP: If Meaning looks like POS and POS looks like Meaning
+                        if is_grammatical_label(meaning) and (has_chinese(pos) or not is_grammatical_label(pos)):
+                            # print(f"  Swapping POS/Meaning for: {word}")
+                            pos, meaning = meaning, pos
+
                         words.append({
                             "word": word,
-                            "pos": str(row.get('B', '')).strip(),
-                            "meaning": str(row.get('C', '')).strip(),
+                            "pos": pos,
+                            "meaning": meaning,
                             "en": str(row.get('D', '')).strip(),
                             "zh": str(row.get('E', '')).strip()
                         })
@@ -113,4 +123,4 @@ if __name__ == "__main__":
     content = f"const VOCAB_DATA = {json.dumps(final_data, indent=2, ensure_ascii=False)};\n\nexport default VOCAB_DATA;"
     with open("data.js", "w", encoding="utf-8") as f:
         f.write(content)
-    print("Success! data.js regenerated with correct column mapping and custom RC order.")
+    print("Success! data.js regenerated with intelligent POS/Meaning auto-swap.")

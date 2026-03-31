@@ -9897,15 +9897,15 @@ const VOCAB_DATA = [
         "words": [
           {
             "word": "accent",
-            "pos": "口音",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "口音",
             "en": "She speaks English with a British accent.",
             "zh": "她說英語帶有英國口音。"
           },
           {
             "word": "achieve",
-            "pos": "達成；實現",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "達成；實現",
             "en": "He worked hard to achieve his goals.",
             "zh": "他努力工作以實現目標。"
           },
@@ -9918,43 +9918,43 @@ const VOCAB_DATA = [
           },
           {
             "word": "appointment",
-            "pos": "約會；預約",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "約會；預約",
             "en": "I have a doctor's appointment tomorrow.",
             "zh": "我明天有一個醫生預約。"
           },
           {
             "word": "asparagus",
-            "pos": "蘆筍",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "蘆筍",
             "en": "She made a salad with asparagus and tomatoes.",
             "zh": "她用蘆筍和番茄做了一道沙拉。"
           },
           {
             "word": "basic",
-            "pos": "基本的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "基本的",
             "en": "Learning basic math is important.",
             "zh": "學習基本的數學很重要。"
           },
           {
             "word": "blade",
-            "pos": "刀片；葉片",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "刀片；葉片",
             "en": "The knife’s blade is very sharp.",
             "zh": "這把刀的刀片非常鋒利。"
           },
           {
             "word": "brilliant",
-            "pos": "燦爛的；傑出的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "燦爛的；傑出的",
             "en": "She came up with a brilliant idea.",
             "zh": "她想出了一個絕妙的主意。"
           },
           {
             "word": "broccoli",
-            "pos": "花椰菜",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "花椰菜",
             "en": "Broccoli is rich in vitamins.",
             "zh": "花椰菜富含維生素。"
           },
@@ -9967,99 +9967,99 @@ const VOCAB_DATA = [
           },
           {
             "word": "certificate",
-            "pos": "證書；證明",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "證書；證明",
             "en": "She received a certificate for completing the course.",
             "zh": "她獲得了結業證書。"
           },
           {
             "word": "chew",
-            "pos": "咀嚼",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "咀嚼",
             "en": "Please chew your food properly.",
             "zh": "請好好咀嚼你的食物。"
           },
           {
             "word": "chunky",
-            "pos": "厚重的；含有大塊的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "厚重的；含有大塊的",
             "en": "He wore a chunky sweater.",
             "zh": "他穿著一件厚重的毛衣。"
           },
           {
             "word": "compact",
-            "pos": "小巧的；緊湊的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "小巧的；緊湊的",
             "en": "This camera is small and compact.",
             "zh": "這台相機體積小巧且設計緊湊。"
           },
           {
             "word": "comprehension",
-            "pos": "理解力",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "理解力",
             "en": "Reading comprehension is important for learning.",
             "zh": "閱讀理解能力對學習很重要。"
           },
           {
             "word": "confidence",
-            "pos": "自信",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "自信",
             "en": "She spoke with confidence.",
             "zh": "她充滿自信地說話。"
           },
           {
             "word": "coral reef",
-            "pos": "珊瑚礁",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "珊瑚礁",
             "en": "Coral reefs are home to many marine animals.",
             "zh": "珊瑚礁是許多海洋生物的家園。"
           },
           {
             "word": "council",
-            "pos": "委員會；理事會",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "委員會；理事會",
             "en": "The city council approved the new policy.",
             "zh": "市議會批准了新政策。"
           },
           {
             "word": "crown",
-            "pos": "皇冠；王冠",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "皇冠；王冠",
             "en": "The king wore a golden crown.",
             "zh": "國王戴著金色的皇冠。"
           },
           {
             "word": "crunchy",
-            "pos": "酥脆的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "酥脆的",
             "en": "This apple is fresh and crunchy.",
             "zh": "這顆蘋果又新鮮又脆。"
           },
           {
             "word": "cucumber",
-            "pos": "小黃瓜",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "小黃瓜",
             "en": "She added sliced cucumbers to her salad.",
             "zh": "她在沙拉裡加了黃瓜片。"
           },
           {
             "word": "deadline",
-            "pos": "截止日期",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "截止日期",
             "en": "The deadline for the project is next Monday.",
             "zh": "這個專案的截止日期是下週一。"
           },
           {
             "word": "describe",
-            "pos": "描述",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "描述",
             "en": "Can you describe what happened?",
             "zh": "你能描述一下發生了什麼事嗎？"
           },
           {
             "word": "disc",
-            "pos": "圓盤；磁碟",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "圓盤；磁碟",
             "en": "He saved the file to a disc.",
             "zh": "他將文件存到磁碟上。"
           },
@@ -10072,29 +10072,29 @@ const VOCAB_DATA = [
           },
           {
             "word": "dull",
-            "pos": "無聊的；遲鈍的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "無聊的；遲鈍的",
             "en": "The movie was long and dull.",
             "zh": "這部電影又長又無聊。"
           },
           {
             "word": "eggplant",
-            "pos": "茄子",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "茄子",
             "en": "She cooked eggplant with garlic sauce.",
             "zh": "她用蒜醬煮茄子。"
           },
           {
             "word": "embarrassing",
-            "pos": "令人尷尬的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "令人尷尬的",
             "en": "It was an embarrassing mistake.",
             "zh": "這是一個令人尷尬的錯誤。"
           },
           {
             "word": "engineering",
-            "pos": "工程學",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "工程學",
             "en": "He studied mechanical engineering at university.",
             "zh": "他在大學學習機械工程。"
           },
@@ -10107,15 +10107,15 @@ const VOCAB_DATA = [
           },
           {
             "word": "era",
-            "pos": "時代",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "時代",
             "en": "We live in the digital era.",
             "zh": "我們生活在數位時代。"
           },
           {
             "word": "especially",
-            "pos": "尤其",
-            "meaning": "adv.",
+            "pos": "adv.",
+            "meaning": "尤其",
             "en": "I love all fruits, especially mangoes.",
             "zh": "我喜歡所有水果，尤其是芒果。"
           },
@@ -10128,92 +10128,92 @@ const VOCAB_DATA = [
           },
           {
             "word": "ferret",
-            "pos": "雪貂",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "雪貂",
             "en": "She has a pet ferret.",
             "zh": "她養了一隻雪貂。"
           },
           {
             "word": "flat",
-            "pos": "平的；單調的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "平的；單調的",
             "en": "The road is completely flat.",
             "zh": "這條路完全是平的。"
           },
           {
             "word": "flavor",
-            "pos": "風味",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "風味",
             "en": "This ice cream has a rich chocolate flavor.",
             "zh": "這款冰淇淋有濃郁的巧克力風味。"
           },
           {
             "word": "fluency",
-            "pos": "流利",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "流利",
             "en": "She speaks French with great fluency.",
             "zh": "她說法語非常流利。"
           },
           {
             "word": "globalization",
-            "pos": "全球化",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "全球化",
             "en": "Globalization has connected economies worldwide.",
             "zh": "全球化讓經濟聯繫更加緊密。"
           },
           {
             "word": "gorgeous",
-            "pos": "美麗的；華麗的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "美麗的；華麗的",
             "en": "She wore a gorgeous dress.",
             "zh": "她穿了一件華麗的裙子。"
           },
           {
             "word": "ground",
-            "pos": "地面；理由",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "地面；理由",
             "en": "The ground was covered with snow.",
             "zh": "地面被雪覆蓋了。"
           },
           {
             "word": "hospitality",
-            "pos": "好客；款待",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "好客；款待",
             "en": "The hotel is known for its hospitality.",
             "zh": "這家酒店以其熱情好客而聞名。"
           },
           {
             "word": "imply",
-            "pos": "暗示",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "暗示",
             "en": "His words implied that he was unhappy.",
             "zh": "他的話暗示他不開心。"
           },
           {
             "word": "infer",
-            "pos": "推斷",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "推斷",
             "en": "From his tone, I inferred he was upset.",
             "zh": "從他的語氣中，我推斷他很不高興。"
           },
           {
             "word": "instrument",
-            "pos": "樂器；工具",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "樂器；工具",
             "en": "She plays a musical instrument.",
             "zh": "她會演奏樂器。"
           },
           {
             "word": "kangaroo",
-            "pos": "袋鼠",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "袋鼠",
             "en": "Kangaroos are native to Australia.",
             "zh": "袋鼠是澳洲特有的動物。"
           },
           {
             "word": "laundry",
-            "pos": "洗衣",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "洗衣",
             "en": "I need to do my laundry today.",
             "zh": "我今天需要洗衣服。"
           },
@@ -10226,8 +10226,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "lettuce",
-            "pos": "萵苣",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "萵苣",
             "en": "She added lettuce to her sandwich.",
             "zh": "她在三明治裡加了萵苣。"
           },
@@ -10240,22 +10240,22 @@ const VOCAB_DATA = [
           },
           {
             "word": "lump",
-            "pos": "塊狀物",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "塊狀物",
             "en": "He found a lump in his soup.",
             "zh": "他在湯裡發現了一塊異物。"
           },
           {
             "word": "mammal",
-            "pos": "哺乳動物",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "哺乳動物",
             "en": "Whales are the largest mammals in the ocean.",
             "zh": "鯨魚是海洋中最大的哺乳動物。"
           },
           {
             "word": "memory",
-            "pos": "記憶；回憶",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "記憶；回憶",
             "en": "She has a good memory for names.",
             "zh": "她對名字的記憶力很好。"
           },
@@ -10268,36 +10268,36 @@ const VOCAB_DATA = [
           },
           {
             "word": "midterm",
-            "pos": "期中考",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "期中考",
             "en": "The students are preparing for their midterm exams.",
             "zh": "學生們正在準備期中考試。"
           },
           {
             "word": "missing",
-            "pos": "失蹤的；缺少的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "失蹤的；缺少的",
             "en": "The police are searching for a missing child.",
             "zh": "警方正在尋找一名失蹤的兒童。"
           },
           {
             "word": "multilingual",
-            "pos": "多語的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "多語的",
             "en": "She is multilingual and speaks five languages.",
             "zh": "她會多種語言，能說五種語言。"
           },
           {
             "word": "optimization",
-            "pos": "最佳化；優化",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "最佳化；優化",
             "en": "Website optimization improves user experience.",
             "zh": "網站最佳化能提升使用者體驗。"
           },
           {
             "word": "orchestra",
-            "pos": "管弦樂隊",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "管弦樂隊",
             "en": "She plays the violin in the school orchestra.",
             "zh": "她在學校管弦樂隊中演奏小提琴。"
           },
@@ -10310,15 +10310,15 @@ const VOCAB_DATA = [
           },
           {
             "word": "pineapple",
-            "pos": "鳳梨",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "鳳梨",
             "en": "Pineapple is a tropical fruit.",
             "zh": "鳳梨是一種熱帶水果。"
           },
           {
             "word": "pointed",
-            "pos": "尖的；明顯的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "尖的；明顯的",
             "en": "He made a pointed comment during the discussion.",
             "zh": "他在討論中發表了一個明顯的評論。"
           },
@@ -10331,57 +10331,57 @@ const VOCAB_DATA = [
           },
           {
             "word": "probably",
-            "pos": "可能；大概",
-            "meaning": "adv.",
+            "pos": "adv.",
+            "meaning": "可能；大概",
             "en": "It will probably rain tomorrow.",
             "zh": "明天可能會下雨。"
           },
           {
             "word": "pronunciation",
-            "pos": "發音",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "發音",
             "en": "His pronunciation of English words is clear.",
             "zh": "他的英語發音很清晰。"
           },
           {
             "word": "rectangle",
-            "pos": "長方形",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "長方形",
             "en": "The classroom has a rectangular layout.",
             "zh": "這間教室的佈局是長方形的。"
           },
           {
             "word": "reluctant",
-            "pos": "不情願的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "不情願的",
             "en": "She was reluctant to share her secret.",
             "zh": "她不情願分享她的秘密。"
           },
           {
             "word": "represent",
-            "pos": "代表；象徵",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "代表；象徵",
             "en": "The flag represents the country.",
             "zh": "這面旗幟代表這個國家。"
           },
           {
             "word": "revolution",
-            "pos": "革命",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "革命",
             "en": "The Industrial Revolution changed the world.",
             "zh": "工業革命改變了世界。"
           },
           {
             "word": "rough",
-            "pos": "粗糙的；艱難的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "粗糙的；艱難的",
             "en": "His hands were rough from hard work.",
             "zh": "他的手因為辛勤勞動變得粗糙。"
           },
           {
             "word": "sculpture",
-            "pos": "雕塑",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "雕塑",
             "en": "The museum has an ancient Greek sculpture.",
             "zh": "這家博物館有一座古希臘雕塑。"
           },
@@ -10394,106 +10394,106 @@ const VOCAB_DATA = [
           },
           {
             "word": "sharpen",
-            "pos": "磨利；加強",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "磨利；加強",
             "en": "He sharpened his pencil before the test.",
             "zh": "他在考試前削鉛筆。"
           },
           {
             "word": "shore",
-            "pos": "海岸；岸邊",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "海岸；岸邊",
             "en": "They walked along the shore at sunset.",
             "zh": "他們在日落時沿著海岸散步。"
           },
           {
             "word": "silk",
-            "pos": "絲綢",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "絲綢",
             "en": "This dress is made of pure silk.",
             "zh": "這件衣服是純絲綢製成的。"
           },
           {
             "word": "similar",
-            "pos": "相似的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "相似的",
             "en": "Their ideas are quite similar.",
             "zh": "他們的想法很相似。"
           },
           {
             "word": "similarity",
-            "pos": "相似點",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "相似點",
             "en": "There is a similarity between these two paintings.",
             "zh": "這兩幅畫有相似之處。"
           },
           {
             "word": "smooth",
-            "pos": "平滑的；順利的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "平滑的；順利的",
             "en": "The surface of the table is very smooth.",
             "zh": "這張桌子的表面非常平滑。"
           },
           {
             "word": "snorkeling",
-            "pos": "浮潛",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "浮潛",
             "en": "We went snorkeling in the crystal-clear water.",
             "zh": "我們在清澈的水中浮潛。"
           },
           {
             "word": "software",
-            "pos": "軟體",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "軟體",
             "en": "He is developing a new type of software.",
             "zh": "他正在開發一種新型軟體。"
           },
           {
             "word": "species",
-            "pos": "物種",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "物種",
             "en": "There are many endangered species in the rainforest.",
             "zh": "雨林中有許多瀕危物種。"
           },
           {
             "word": "stuff",
-            "pos": "東西",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "東西",
             "en": "She packed her stuff into a suitcase.",
             "zh": "她把她的東西裝進行李箱裡。"
           },
           {
             "word": "tasty",
-            "pos": "美味的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "美味的",
             "en": "This cake is very tasty.",
             "zh": "這個蛋糕很好吃。"
           },
           {
             "word": "timetable",
-            "pos": "時間表；課表",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "時間表；課表",
             "en": "The train timetable was changed.",
             "zh": "火車時間表被更改了。"
           },
           {
             "word": "tolerance",
-            "pos": "忍耐力；包容",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "忍耐力；包容",
             "en": "He has a high tolerance for pain.",
             "zh": "他對疼痛的忍耐力很高。"
           },
           {
             "word": "transcript",
-            "pos": "成績單；副本",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "成績單；副本",
             "en": "She requested a transcript of her academic records.",
             "zh": "她申請了一份成績單。"
           },
           {
             "word": "via",
-            "pos": "經由；透過",
-            "meaning": "prep.",
+            "pos": "prep.",
+            "meaning": "經由；透過",
             "en": "We traveled to Italy via France.",
             "zh": "我們經由法國前往義大利。"
           }
@@ -11698,78 +11698,78 @@ const VOCAB_DATA = [
           },
           {
             "word": "achieve",
-            "pos": "達成；實現",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "達成；實現",
             "en": "He worked hard to achieve success.",
             "zh": "他努力工作以獲得成功。"
           },
           {
             "word": "additional",
-            "pos": "額外的；附加的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "額外的；附加的",
             "en": "We need additional information.",
             "zh": "我們需要額外的資訊。"
           },
           {
             "word": "adjectival clause",
-            "pos": "形容詞子句",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "形容詞子句",
             "en": "\"The book that I bought is interesting\" contains an adjectival clause.",
             "zh": "“我買的那本書很有趣” 包含一個形容詞子句。"
           },
           {
             "word": "adverbial clause",
-            "pos": "副詞子句",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "副詞子句",
             "en": "\"I stayed home because it was raining\" contains an adverbial clause.",
             "zh": "“因為下雨，所以我待在家” 包含一個副詞子句。"
           },
           {
             "word": "advise",
-            "pos": "建議",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "建議",
             "en": "The teacher advised him to study harder.",
             "zh": "老師建議他更努力學習。"
           },
           {
             "word": "afford",
-            "pos": "負擔得起",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "負擔得起",
             "en": "I can’t afford a new car.",
             "zh": "我買不起新車。"
           },
           {
             "word": "ambulance",
-            "pos": "救護車",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "救護車",
             "en": "The ambulance arrived quickly.",
             "zh": "救護車很快就到了。"
           },
           {
             "word": "applicable",
-            "pos": "適用的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "適用的",
             "en": "This rule is not applicable to everyone.",
             "zh": "這條規則不適用於所有人。"
           },
           {
             "word": "application",
-            "pos": "申請；應用",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "申請；應用",
             "en": "His job application was approved.",
             "zh": "他的工作申請被批准了。"
           },
           {
             "word": "appoint",
-            "pos": "任命；指定",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "任命；指定",
             "en": "She was appointed as the new manager.",
             "zh": "她被任命為新經理。"
           },
           {
             "word": "assignment",
-            "pos": "作業；任務",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "作業；任務",
             "en": "We have a math assignment due tomorrow.",
             "zh": "我們有一份數學作業明天要交。"
           },
@@ -11782,64 +11782,64 @@ const VOCAB_DATA = [
           },
           {
             "word": "await",
-            "pos": "等候",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "等候",
             "en": "The guests awaited the bride’s arrival.",
             "zh": "賓客們等待新娘的到來。"
           },
           {
             "word": "biology",
-            "pos": "生物學",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "生物學",
             "en": "She is studying biology at university.",
             "zh": "她在大學學習生物學。"
           },
           {
             "word": "bride",
-            "pos": "新娘",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "新娘",
             "en": "The bride looked beautiful at the wedding.",
             "zh": "新娘在婚禮上看起來很美麗。"
           },
           {
             "word": "broke",
-            "pos": "破產的；沒錢的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "破產的；沒錢的",
             "en": "I can’t go shopping, I’m broke.",
             "zh": "我沒錢了，不能去購物。"
           },
           {
             "word": "campus",
-            "pos": "校園",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "校園",
             "en": "The university has a beautiful campus.",
             "zh": "這所大學有一座美麗的校園。"
           },
           {
             "word": "category",
-            "pos": "類別",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "類別",
             "en": "This book falls into the fiction category.",
             "zh": "這本書屬於小說類別。"
           },
           {
             "word": "chairman",
-            "pos": "主席",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "主席",
             "en": "He is the chairman of the committee.",
             "zh": "他是委員會的主席。"
           },
           {
             "word": "cinema",
-            "pos": "電影院",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "電影院",
             "en": "We went to the cinema to watch a movie.",
             "zh": "我們去電影院看電影。"
           },
           {
             "word": "clause",
-            "pos": "子句",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "子句",
             "en": "The sentence contains a relative clause.",
             "zh": "這句話包含一個關係子句。"
           },
@@ -11852,29 +11852,29 @@ const VOCAB_DATA = [
           },
           {
             "word": "commodity",
-            "pos": "商品",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "商品",
             "en": "Rice is an important commodity in many countries.",
             "zh": "米是許多國家的重要商品。"
           },
           {
             "word": "comparative",
-            "pos": "比較的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "比較的",
             "en": "This is a comparative study of different cultures.",
             "zh": "這是一項不同文化的比較研究。"
           },
           {
             "word": "comparison",
-            "pos": "比較",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "比較",
             "en": "He made a comparison between two brands.",
             "zh": "他對兩個品牌進行了比較。"
           },
           {
             "word": "compel",
-            "pos": "強迫",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "強迫",
             "en": "The law compels drivers to wear seat belts.",
             "zh": "法律強制司機繫安全帶。"
           },
@@ -11887,8 +11887,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "composition",
-            "pos": "作文；組成",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "作文；組成",
             "en": "He wrote a composition about his summer vacation.",
             "zh": "他寫了一篇關於暑假的作文。"
           },
@@ -11901,50 +11901,50 @@ const VOCAB_DATA = [
           },
           {
             "word": "concept",
-            "pos": "概念",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "概念",
             "en": "The concept of democracy is important in politics.",
             "zh": "民主的概念在政治中很重要。"
           },
           {
             "word": "conditional",
-            "pos": "條件的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "條件的",
             "en": "\"If it rains, we will stay home\" is a conditional sentence.",
             "zh": "“如果下雨，我們會待在家” 是一個條件句。"
           },
           {
             "word": "confused",
-            "pos": "困惑的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "困惑的",
             "en": "I was confused by his explanation.",
             "zh": "他的解釋讓我感到困惑。"
           },
           {
             "word": "confusing",
-            "pos": "令人困惑的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "令人困惑的",
             "en": "The instructions were very confusing.",
             "zh": "這些指示讓人很困惑。"
           },
           {
             "word": "conjunction",
-            "pos": "連接詞",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "連接詞",
             "en": "\"And\" is a coordinating conjunction.",
             "zh": "“And” 是一個並列連接詞。"
           },
           {
             "word": "conjunctive",
-            "pos": "連接的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "連接的",
             "en": "The conjunctive adverb \"however\" is used to contrast ideas.",
             "zh": "連接副詞 “however” 用來對比想法。"
           },
           {
             "word": "connect",
-            "pos": "連接",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "連接",
             "en": "The bridge connects the two cities.",
             "zh": "這座橋連接了兩座城市。"
           },
@@ -11964,36 +11964,36 @@ const VOCAB_DATA = [
           },
           {
             "word": "context",
-            "pos": "上下文；背景",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "上下文；背景",
             "en": "You should read the word in context.",
             "zh": "你應該根據上下文理解這個單詞。"
           },
           {
             "word": "continent",
-            "pos": "大陸",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "大陸",
             "en": "Africa is the second-largest continent.",
             "zh": "非洲是第二大洲。"
           },
           {
             "word": "continuous",
-            "pos": "連續的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "連續的",
             "en": "The city has seen continuous growth in population.",
             "zh": "這座城市的人口持續增長。"
           },
           {
             "word": "convey",
-            "pos": "傳達；表達",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "傳達；表達",
             "en": "He tried to convey his feelings through his words.",
             "zh": "他試圖透過言語表達他的感受。"
           },
           {
             "word": "countable",
-            "pos": "可數的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "可數的",
             "en": "\"Apple\" is a countable noun.",
             "zh": "“Apple” 是可數名詞。"
           },
@@ -12013,36 +12013,36 @@ const VOCAB_DATA = [
           },
           {
             "word": "custody",
-            "pos": "監護權；拘留",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "監護權；拘留",
             "en": "She has custody of her two children.",
             "zh": "她擁有兩個孩子的監護權。"
           },
           {
             "word": "dare",
-            "pos": "敢於",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "敢於",
             "en": "He didn’t dare to ask her out.",
             "zh": "他不敢約她出去。"
           },
           {
             "word": "democracy",
-            "pos": "民主",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "民主",
             "en": "Democracy allows people to vote for their leaders.",
             "zh": "民主允許人民投票選舉領袖。"
           },
           {
             "word": "dependent",
-            "pos": "依賴的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "依賴的",
             "en": "He is financially dependent on his parents.",
             "zh": "他在經濟上依賴父母。"
           },
           {
             "word": "dependent clause",
-            "pos": "從屬子句",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "從屬子句",
             "en": "\"Because she was late\" is a dependent clause.",
             "zh": "“因為她遲到了” 是一個從屬子句。"
           },
@@ -12062,57 +12062,57 @@ const VOCAB_DATA = [
           },
           {
             "word": "eagerly",
-            "pos": "渴望地；急切地",
-            "meaning": "adv.",
+            "pos": "adv.",
+            "meaning": "渴望地；急切地",
             "en": "She eagerly waited for the results.",
             "zh": "她急切地等待結果。"
           },
           {
             "word": "element",
-            "pos": "元素；成分",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "元素；成分",
             "en": "Water is an essential element for life.",
             "zh": "水是生命中不可或缺的元素。"
           },
           {
             "word": "embarrass",
-            "pos": "使尷尬",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "使尷尬",
             "en": "His mistake embarrassed him in front of everyone.",
             "zh": "他的錯誤讓他在大家面前感到尷尬。"
           },
           {
             "word": "emergency",
-            "pos": "緊急情況",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "緊急情況",
             "en": "Call 911 in case of an emergency.",
             "zh": "遇到緊急情況時請撥打 911。"
           },
           {
             "word": "essential",
-            "pos": "必要的；本質的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "必要的；本質的",
             "en": "Fresh air is essential for good health.",
             "zh": "新鮮空氣對健康至關重要。"
           },
           {
             "word": "exhausted",
-            "pos": "筋疲力盡的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "筋疲力盡的",
             "en": "After running, he felt completely exhausted.",
             "zh": "跑步後，他感到完全筋疲力盡。"
           },
           {
             "word": "exhausting",
-            "pos": "令人筋疲力盡的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "令人筋疲力盡的",
             "en": "The long trip was exhausting.",
             "zh": "這次長途旅行讓人筋疲力盡。"
           },
           {
             "word": "explanation",
-            "pos": "解釋；說明",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "解釋；說明",
             "en": "Can you give me an explanation for this error?",
             "zh": "你能解釋一下這個錯誤嗎？"
           },
@@ -12125,155 +12125,155 @@ const VOCAB_DATA = [
           },
           {
             "word": "forbid",
-            "pos": "禁止",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "禁止",
             "en": "Smoking is forbidden in the building.",
             "zh": "這棟建築內禁止吸菸。"
           },
           {
             "word": "forever",
-            "pos": "永遠",
-            "meaning": "adv.",
+            "pos": "adv.",
+            "meaning": "永遠",
             "en": "I will love you forever.",
             "zh": "我會永遠愛你。"
           },
           {
             "word": "frank",
-            "pos": "坦白的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "坦白的",
             "en": "She was frank about her feelings.",
             "zh": "她坦率地表達了自己的感受。"
           },
           {
             "word": "freezer",
-            "pos": "冷凍庫",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "冷凍庫",
             "en": "The ice cream is in the freezer.",
             "zh": "冰淇淋在冷凍庫裡。"
           },
           {
             "word": "gas",
-            "pos": "氣體；汽油",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "氣體；汽油",
             "en": "The balloon is filled with gas.",
             "zh": "氣球裡充滿了氣體。"
           },
           {
             "word": "gerund",
-            "pos": "動名詞",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "動名詞",
             "en": "In the sentence \"I enjoy swimming,\" \"swimming\" is a gerund.",
             "zh": "在句子 \"I enjoy swimming\" 中，\"swimming\" 是動名詞。"
           },
           {
             "word": "guilty",
-            "pos": "有罪的；內疚的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "有罪的；內疚的",
             "en": "He felt guilty about lying to his friend.",
             "zh": "他對於對朋友撒謊感到內疚。"
           },
           {
             "word": "identify",
-            "pos": "辨識；確認",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "辨識；確認",
             "en": "The police identified the suspect.",
             "zh": "警方確認了嫌疑人。"
           },
           {
             "word": "infinitive",
-            "pos": "不定詞",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "不定詞",
             "en": "\"To study\" is an infinitive phrase.",
             "zh": "\"To study\" 是一個不定詞片語。"
           },
           {
             "word": "injure",
-            "pos": "受傷",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "受傷",
             "en": "He injured his leg while playing soccer.",
             "zh": "他在踢足球時弄傷了腿。"
           },
           {
             "word": "instruct",
-            "pos": "指導；命令",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "指導；命令",
             "en": "The teacher instructed the students to read the chapter.",
             "zh": "老師指導學生閱讀這一章。"
           },
           {
             "word": "intelligent",
-            "pos": "聰明的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "聰明的",
             "en": "She is an intelligent student.",
             "zh": "她是一位聰明的學生。"
           },
           {
             "word": "intend",
-            "pos": "打算；意圖",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "打算；意圖",
             "en": "He intends to travel next summer.",
             "zh": "他打算明年夏天去旅行。"
           },
           {
             "word": "interrupt",
-            "pos": "打斷；中斷",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "打斷；中斷",
             "en": "Please don’t interrupt me while I’m speaking.",
             "zh": "當我說話時請不要打斷我。"
           },
           {
             "word": "intervention",
-            "pos": "干預；介入",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "干預；介入",
             "en": "The doctor’s intervention saved the patient’s life.",
             "zh": "醫生的介入挽救了病人的生命。"
           },
           {
             "word": "intimate",
-            "pos": "親密的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "親密的",
             "en": "They have an intimate friendship.",
             "zh": "他們有著親密的友誼。"
           },
           {
             "word": "intransitive",
-            "pos": "不及物的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "不及物的",
             "en": "\"Sleep\" is an intransitive verb.",
             "zh": "\"Sleep\" 是一個不及物動詞。"
           },
           {
             "word": "inverted sentence",
-            "pos": "倒裝句",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "倒裝句",
             "en": "\"Never have I seen such a thing\" is an inverted sentence.",
             "zh": "\"Never have I seen such a thing\" 是一個倒裝句。"
           },
           {
             "word": "investigate",
-            "pos": "調查",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "調查",
             "en": "The police are investigating the crime.",
             "zh": "警方正在調查這起犯罪案件。"
           },
           {
             "word": "involve",
-            "pos": "涉及；包含",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "涉及；包含",
             "en": "The project involves teamwork.",
             "zh": "這個專案涉及團隊合作。"
           },
           {
             "word": "jade",
-            "pos": "玉石",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "玉石",
             "en": "She wore a jade necklace.",
             "zh": "她戴了一條玉石項鍊。"
           },
           {
             "word": "jungle",
-            "pos": "叢林",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "叢林",
             "en": "They explored the jungle.",
             "zh": "他們探索了叢林。"
           },
@@ -12286,22 +12286,22 @@ const VOCAB_DATA = [
           },
           {
             "word": "kidnap",
-            "pos": "綁架",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "綁架",
             "en": "The criminals kidnapped the businessman.",
             "zh": "罪犯綁架了一名商人。"
           },
           {
             "word": "lately",
-            "pos": "最近",
-            "meaning": "adv.",
+            "pos": "adv.",
+            "meaning": "最近",
             "en": "Have you seen him lately?",
             "zh": "你最近有見過他嗎？"
           },
           {
             "word": "layer",
-            "pos": "層",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "層",
             "en": "There is a thin layer of dust on the table.",
             "zh": "桌子上有一層薄薄的灰塵。"
           },
@@ -12314,22 +12314,22 @@ const VOCAB_DATA = [
           },
           {
             "word": "lung",
-            "pos": "肺",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "肺",
             "en": "Smoking damages the lungs.",
             "zh": "吸菸會損害肺部。"
           },
           {
             "word": "marker",
-            "pos": "記號筆；標記",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "記號筆；標記",
             "en": "She used a red marker to highlight the words.",
             "zh": "她用紅色記號筆標出這些單詞。"
           },
           {
             "word": "mental",
-            "pos": "心理的；精神的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "心理的；精神的",
             "en": "Mental health is important.",
             "zh": "心理健康很重要。"
           },
@@ -12342,50 +12342,50 @@ const VOCAB_DATA = [
           },
           {
             "word": "miser",
-            "pos": "吝嗇鬼",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "吝嗇鬼",
             "en": "The old man was a miser who never spent money.",
             "zh": "這位老人是個吝嗇鬼，從不花錢。"
           },
           {
             "word": "missing",
-            "pos": "失蹤的；缺少的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "失蹤的；缺少的",
             "en": "The police are searching for the missing child.",
             "zh": "警方正在尋找失蹤的孩子。"
           },
           {
             "word": "modal",
-            "pos": "情態的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "情態的",
             "en": "\"Can\" is a modal verb.",
             "zh": "“Can” 是一個情態動詞。"
           },
           {
             "word": "modifier",
-            "pos": "修飾語",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "修飾語",
             "en": "In \"very tall,\" \"very\" is a modifier.",
             "zh": "在 \"very tall\" 中，\"very\" 是修飾語。"
           },
           {
             "word": "modify",
-            "pos": "修改；修飾",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "修改；修飾",
             "en": "She modified her essay before submitting it.",
             "zh": "她在提交之前修改了她的文章。"
           },
           {
             "word": "multiple",
-            "pos": "多重的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "多重的",
             "en": "He has multiple responsibilities.",
             "zh": "他有多重責任。"
           },
           {
             "word": "mystery",
-            "pos": "神秘；謎",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "神秘；謎",
             "en": "The case remains a mystery.",
             "zh": "這起案件仍然是一個謎。"
           },
@@ -12398,64 +12398,64 @@ const VOCAB_DATA = [
           },
           {
             "word": "neglect",
-            "pos": "忽視；疏忽",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "忽視；疏忽",
             "en": "He neglected his health for years.",
             "zh": "他多年來忽視了自己的健康。"
           },
           {
             "word": "nominal clause",
-            "pos": "名詞子句",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "名詞子句",
             "en": "\"What he said is true\" contains a nominal clause.",
             "zh": "“他說的是真的” 包含一個名詞子句。"
           },
           {
             "word": "normal",
-            "pos": "正常的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "正常的",
             "en": "It is normal to feel nervous before a test.",
             "zh": "考試前感到緊張是正常的。"
           },
           {
             "word": "oblige",
-            "pos": "迫使；使有義務",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "迫使；使有義務",
             "en": "The law obliges citizens to pay taxes.",
             "zh": "法律規定公民必須繳稅。"
           },
           {
             "word": "occasional",
-            "pos": "偶爾的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "偶爾的",
             "en": "She enjoys an occasional cup of coffee.",
             "zh": "她偶爾喝一杯咖啡。"
           },
           {
             "word": "operation",
-            "pos": "操作；手術",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "操作；手術",
             "en": "The patient underwent a heart operation.",
             "zh": "這名病人接受了一次心臟手術。"
           },
           {
             "word": "otherwise",
-            "pos": "否則；不同地",
-            "meaning": "adv.",
+            "pos": "adv.",
+            "meaning": "否則；不同地",
             "en": "You must study hard; otherwise, you will fail.",
             "zh": "你必須努力學習，否則你會失敗。"
           },
           {
             "word": "participle",
-            "pos": "分詞",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "分詞",
             "en": "\"Running\" in \"a running man\" is a present participle.",
             "zh": "“running man” 中的 \"running\" 是現在分詞。"
           },
           {
             "word": "passive",
-            "pos": "被動的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "被動的",
             "en": "The sentence \"The book was written by her\" is in the passive voice.",
             "zh": "“這本書是她寫的” 是被動語態。"
           },
@@ -12468,15 +12468,15 @@ const VOCAB_DATA = [
           },
           {
             "word": "physical",
-            "pos": "身體的；物理的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "身體的；物理的",
             "en": "Regular exercise improves physical health.",
             "zh": "規律運動有助於身體健康。"
           },
           {
             "word": "pleasantly",
-            "pos": "愉快地",
-            "meaning": "adv.",
+            "pos": "adv.",
+            "meaning": "愉快地",
             "en": "She was pleasantly surprised by the gift.",
             "zh": "她對這份禮物感到驚喜。"
           },
@@ -12489,36 +12489,36 @@ const VOCAB_DATA = [
           },
           {
             "word": "postpone",
-            "pos": "延期",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "延期",
             "en": "The meeting was postponed due to bad weather.",
             "zh": "會議因為天氣惡劣而延期。"
           },
           {
             "word": "predicate",
-            "pos": "謂語",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "謂語",
             "en": "\"She sings beautifully\" has \"sings beautifully\" as its predicate.",
             "zh": "“她唱得很好” 中 \"sings beautifully\" 是謂語。"
           },
           {
             "word": "preposition",
-            "pos": "介詞",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "介詞",
             "en": "\"On\" in \"on the table\" is a preposition.",
             "zh": "“on the table” 中的 \"on\" 是介詞。"
           },
           {
             "word": "pretend",
-            "pos": "假裝",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "假裝",
             "en": "He pretended to be asleep.",
             "zh": "他假裝睡著了。"
           },
           {
             "word": "previous",
-            "pos": "先前的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "先前的",
             "en": "I met him on a previous occasion.",
             "zh": "我曾經在之前的一次場合見過他。"
           },
@@ -12538,36 +12538,36 @@ const VOCAB_DATA = [
           },
           {
             "word": "qualify",
-            "pos": "使具資格",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "使具資格",
             "en": "He qualified for the final round.",
             "zh": "他成功晉級決賽。"
           },
           {
             "word": "ravishingly",
-            "pos": "令人陶醉地",
-            "meaning": "adv.",
+            "pos": "adv.",
+            "meaning": "令人陶醉地",
             "en": "She looked ravishingly beautiful in her wedding dress.",
             "zh": "她穿上婚紗後美得令人陶醉。"
           },
           {
             "word": "recommend",
-            "pos": "推薦",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "推薦",
             "en": "I recommend this restaurant.",
             "zh": "我推薦這家餐廳。"
           },
           {
             "word": "refer",
-            "pos": "提及；參考",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "提及；參考",
             "en": "Please refer to the manual for instructions.",
             "zh": "請參閱手冊以獲取使用說明。"
           },
           {
             "word": "regarding",
-            "pos": "關於",
-            "meaning": "prep.",
+            "pos": "prep.",
+            "meaning": "關於",
             "en": "I have a question regarding your proposal.",
             "zh": "我對你的提案有一個問題。"
           },
@@ -12587,22 +12587,22 @@ const VOCAB_DATA = [
           },
           {
             "word": "reinforce",
-            "pos": "強化",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "強化",
             "en": "The teacher reinforced the lesson with examples.",
             "zh": "老師用例子強化這堂課的內容。"
           },
           {
             "word": "remain",
-            "pos": "保持；留下",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "保持；留下",
             "en": "He remained silent during the meeting.",
             "zh": "他在會議期間保持沉默。"
           },
           {
             "word": "remind",
-            "pos": "提醒",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "提醒",
             "en": "Please remind me to call her later.",
             "zh": "請提醒我等一下打電話給她。"
           },
@@ -12615,15 +12615,15 @@ const VOCAB_DATA = [
           },
           {
             "word": "resist",
-            "pos": "抵抗",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "抵抗",
             "en": "She couldn’t resist buying the dress.",
             "zh": "她無法抗拒買下這件裙子。"
           },
           {
             "word": "response",
-            "pos": "回應",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "回應",
             "en": "He gave a quick response to the question.",
             "zh": "他迅速回答了這個問題。"
           },
@@ -12636,15 +12636,15 @@ const VOCAB_DATA = [
           },
           {
             "word": "shortcoming",
-            "pos": "缺點",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "缺點",
             "en": "Everyone has shortcomings.",
             "zh": "每個人都有缺點。"
           },
           {
             "word": "shortly",
-            "pos": "很快地",
-            "meaning": "adv.",
+            "pos": "adv.",
+            "meaning": "很快地",
             "en": "He will arrive shortly.",
             "zh": "他很快就會到達。"
           },
@@ -12657,120 +12657,120 @@ const VOCAB_DATA = [
           },
           {
             "word": "situation",
-            "pos": "情況",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "情況",
             "en": "The situation is under control.",
             "zh": "情況在掌控之中。"
           },
           {
             "word": "specific",
-            "pos": "具體的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "具體的",
             "en": "Can you give me a specific example?",
             "zh": "你能給我一個具體的例子嗎？"
           },
           {
             "word": "stare",
-            "pos": "凝視",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "凝視",
             "en": "He stared at the painting for a long time.",
             "zh": "他凝視著這幅畫很久。"
           },
           {
             "word": "steal",
-            "pos": "偷竊",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "偷竊",
             "en": "Someone stole my wallet.",
             "zh": "有人偷了我的錢包。"
           },
           {
             "word": "stimuli",
-            "pos": "刺激；刺激物",
-            "meaning": "n. (pl.)",
+            "pos": "n. (pl.)",
+            "meaning": "刺激；刺激物",
             "en": "The brain responds to different stimuli.",
             "zh": "大腦對不同的刺激做出反應。"
           },
           {
             "word": "structure",
-            "pos": "結構",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "結構",
             "en": "The structure of the building is strong.",
             "zh": "這棟建築的結構很堅固。"
           },
           {
             "word": "subordinate clause",
-            "pos": "從屬子句",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "從屬子句",
             "en": "\"Because she was late\" is a subordinate clause.",
             "zh": "“因為她遲到了” 是一個從屬子句。"
           },
           {
             "word": "subordinator",
-            "pos": "從屬連接詞",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "從屬連接詞",
             "en": "\"Although\" is a subordinator in the sentence.",
             "zh": "在句子中，“although” 是從屬連接詞。"
           },
           {
             "word": "sue",
-            "pos": "起訴",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "起訴",
             "en": "She sued the company for unfair treatment.",
             "zh": "她因不公平待遇起訴公司。"
           },
           {
             "word": "suffering",
-            "pos": "痛苦",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "痛苦",
             "en": "War causes a lot of suffering.",
             "zh": "戰爭帶來了很多痛苦。"
           },
           {
             "word": "suitcase",
-            "pos": "行李箱",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "行李箱",
             "en": "She packed her suitcase for the trip.",
             "zh": "她為這次旅行打包了行李箱。"
           },
           {
             "word": "temperate",
-            "pos": "溫和的（氣候）",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "溫和的（氣候）",
             "en": "This region has a temperate climate.",
             "zh": "這個地區的氣候溫和。"
           },
           {
             "word": "temporal",
-            "pos": "時間的；暫時的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "時間的；暫時的",
             "en": "The issue is of temporal importance.",
             "zh": "這個問題具有暫時的重要性。"
           },
           {
             "word": "temporarily",
-            "pos": "暫時地",
-            "meaning": "adv.",
+            "pos": "adv.",
+            "meaning": "暫時地",
             "en": "The store is temporarily closed for renovation.",
             "zh": "這家店因裝修而暫時關閉。"
           },
           {
             "word": "temporary",
-            "pos": "臨時的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "臨時的",
             "en": "He found a temporary job for the summer.",
             "zh": "他在暑假找到了一份臨時工作。"
           },
           {
             "word": "tempt",
-            "pos": "引誘；誘惑",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "引誘；誘惑",
             "en": "The delicious smell tempted him to eat more.",
             "zh": "美味的香氣誘惑他吃得更多。"
           },
           {
             "word": "tend",
-            "pos": "傾向於；照顧",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "傾向於；照顧",
             "en": "She tends to be late for meetings.",
             "zh": "她開會時往往會遲到。"
           },
@@ -12804,22 +12804,22 @@ const VOCAB_DATA = [
           },
           {
             "word": "transitive",
-            "pos": "及物的（動詞）",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "及物的（動詞）",
             "en": "\"Eat\" is a transitive verb because it takes an object.",
             "zh": "\"Eat\" 是及物動詞，因為它需要一個受詞。"
           },
           {
             "word": "vary",
-            "pos": "變化；不同",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "變化；不同",
             "en": "Prices vary depending on the season.",
             "zh": "價格根據季節而變動。"
           },
           {
             "word": "warn",
-            "pos": "警告",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "警告",
             "en": "The teacher warned him not to be late again.",
             "zh": "老師警告他不要再遲到。"
           }
@@ -12831,29 +12831,29 @@ const VOCAB_DATA = [
         "words": [
           {
             "word": "absorb",
-            "pos": "吸收",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "吸收",
             "en": "Plants absorb sunlight for photosynthesis.",
             "zh": "植物吸收陽光進行光合作用。"
           },
           {
             "word": "adjustment",
-            "pos": "調整",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "調整",
             "en": "He made a slight adjustment to the plan.",
             "zh": "他對計畫做了一點調整。"
           },
           {
             "word": "amphibian",
-            "pos": "兩棲動物",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "兩棲動物",
             "en": "Frogs and salamanders are amphibians.",
             "zh": "青蛙和蠑螈是兩棲動物。"
           },
           {
             "word": "announcement",
-            "pos": "公告；聲明",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "公告；聲明",
             "en": "The principal made an important announcement.",
             "zh": "校長發表了一項重要公告。"
           },
@@ -12866,15 +12866,15 @@ const VOCAB_DATA = [
           },
           {
             "word": "assignment",
-            "pos": "作業；任務",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "作業；任務",
             "en": "The teacher gave us a writing assignment.",
             "zh": "老師給了我們一個寫作作業。"
           },
           {
             "word": "awareness",
-            "pos": "意識；認識",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "意識；認識",
             "en": "The campaign raises awareness about climate change.",
             "zh": "這個活動提高了人們對氣候變遷的認識。"
           },
@@ -12894,36 +12894,36 @@ const VOCAB_DATA = [
           },
           {
             "word": "breath",
-            "pos": "呼吸",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "呼吸",
             "en": "Take a deep breath before speaking.",
             "zh": "在說話前深呼吸。"
           },
           {
             "word": "breathe",
-            "pos": "呼吸",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "呼吸",
             "en": "He could barely breathe after running.",
             "zh": "跑完後他幾乎喘不過氣來。"
           },
           {
             "word": "campus",
-            "pos": "校園",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "校園",
             "en": "Our campus is full of trees.",
             "zh": "我們的校園裡到處都是樹。"
           },
           {
             "word": "capable",
-            "pos": "有能力的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "有能力的",
             "en": "She is capable of solving difficult problems.",
             "zh": "她有能力解決困難的問題。"
           },
           {
             "word": "career",
-            "pos": "職業；生涯",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "職業；生涯",
             "en": "He is planning a career in medicine.",
             "zh": "他計劃從事醫學相關的職業。"
           },
@@ -12943,43 +12943,43 @@ const VOCAB_DATA = [
           },
           {
             "word": "coach",
-            "pos": "教練",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "教練",
             "en": "The coach trained the team every day.",
             "zh": "教練每天都訓練球隊。"
           },
           {
             "word": "commitment",
-            "pos": "承諾；投入",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "承諾；投入",
             "en": "Her commitment to her work is impressive.",
             "zh": "她對工作的投入令人印象深刻。"
           },
           {
             "word": "communication",
-            "pos": "溝通",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "溝通",
             "en": "Good communication is key to a healthy relationship.",
             "zh": "良好的溝通對健康的人際關係至關重要。"
           },
           {
             "word": "compete",
-            "pos": "競爭",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "競爭",
             "en": "Athletes compete for medals in the Olympics.",
             "zh": "運動員在奧運上競爭獎牌。"
           },
           {
             "word": "consequently",
-            "pos": "因此；結果",
-            "meaning": "adv.",
+            "pos": "adv.",
+            "meaning": "因此；結果",
             "en": "He didn’t study, so consequently, he failed the test.",
             "zh": "他沒有學習，因此考試不及格。"
           },
           {
             "word": "contend",
-            "pos": "競爭；爭奪",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "競爭；爭奪",
             "en": "Many athletes contend for the championship.",
             "zh": "許多運動員爭奪冠軍。"
           },
@@ -12992,134 +12992,134 @@ const VOCAB_DATA = [
           },
           {
             "word": "creature",
-            "pos": "生物",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "生物",
             "en": "The ocean is home to many strange creatures.",
             "zh": "海洋裡住著許多奇怪的生物。"
           },
           {
             "word": "delicate",
-            "pos": "精緻的；易碎的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "精緻的；易碎的",
             "en": "This vase is very delicate, so handle it with care.",
             "zh": "這個花瓶非常易碎，請小心處理。"
           },
           {
             "word": "drastic",
-            "pos": "劇烈的；極端的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "劇烈的；極端的",
             "en": "The company made drastic changes to its policies.",
             "zh": "這家公司對政策做出了重大變更。"
           },
           {
             "word": "engage",
-            "pos": "參與；吸引",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "參與；吸引",
             "en": "The teacher engaged the students in the discussion.",
             "zh": "老師讓學生參與討論。"
           },
           {
             "word": "entertainment",
-            "pos": "娛樂",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "娛樂",
             "en": "Movies and music are popular forms of entertainment.",
             "zh": "電影和音樂是受歡迎的娛樂方式。"
           },
           {
             "word": "extension",
-            "pos": "延長；擴展",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "延長；擴展",
             "en": "She requested an extension for her project.",
             "zh": "她要求延長專案期限。"
           },
           {
             "word": "extinct",
-            "pos": "絕種的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "絕種的",
             "en": "Dinosaurs have been extinct for millions of years.",
             "zh": "恐龍已經絕種了數百萬年。"
           },
           {
             "word": "faculty",
-            "pos": "教職員；才能",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "教職員；才能",
             "en": "He is a faculty member at the university.",
             "zh": "他是這所大學的教職員之一。"
           },
           {
             "word": "feedback",
-            "pos": "反饋",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "反饋",
             "en": "She gave me valuable feedback on my essay.",
             "zh": "她對我的文章給出了有價值的反饋。"
           },
           {
             "word": "fixed mindset",
-            "pos": "固定思維模式",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "固定思維模式",
             "en": "A fixed mindset can limit personal growth.",
             "zh": "固定思維模式可能限制個人成長。"
           },
           {
             "word": "flip",
-            "pos": "翻轉",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "翻轉",
             "en": "He flipped the page quickly.",
             "zh": "他快速翻過這一頁。"
           },
           {
             "word": "frighten",
-            "pos": "使害怕",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "使害怕",
             "en": "The loud noise frightened the baby.",
             "zh": "巨大的噪音嚇到了嬰兒。"
           },
           {
             "word": "futuristic",
-            "pos": "未來的；前衛的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "未來的；前衛的",
             "en": "The building has a futuristic design.",
             "zh": "這棟建築有未來感的設計。"
           },
           {
             "word": "gill",
-            "pos": "魚鰓",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "魚鰓",
             "en": "Fish use their gills to breathe underwater.",
             "zh": "魚用鰓在水中呼吸。"
           },
           {
             "word": "gladiator",
-            "pos": "角鬥士",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "角鬥士",
             "en": "Gladiators fought in arenas in ancient Rome.",
             "zh": "角鬥士在古羅馬的競技場上戰鬥。"
           },
           {
             "word": "growth mindset",
-            "pos": "成長型思維",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "成長型思維",
             "en": "A growth mindset helps people develop new skills.",
             "zh": "成長型思維有助於人們發展新技能。"
           },
           {
             "word": "habitat",
-            "pos": "棲息地",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "棲息地",
             "en": "The rainforest is the habitat of many species.",
             "zh": "熱帶雨林是許多物種的棲息地。"
           },
           {
             "word": "hesitate",
-            "pos": "猶豫",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "猶豫",
             "en": "She hesitated before answering the question.",
             "zh": "她在回答問題前猶豫了一下。"
           },
           {
             "word": "hunger",
-            "pos": "飢餓",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "飢餓",
             "en": "Many people suffer from hunger worldwide.",
             "zh": "全球許多人都遭受飢餓之苦。"
           },
@@ -13132,162 +13132,162 @@ const VOCAB_DATA = [
           },
           {
             "word": "inspiration",
-            "pos": "靈感；啟發",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "靈感；啟發",
             "en": "The artist found inspiration in nature.",
             "zh": "這位藝術家從大自然中獲得靈感。"
           },
           {
             "word": "instructor",
-            "pos": "指導員；講師",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "指導員；講師",
             "en": "The yoga instructor is very patient.",
             "zh": "瑜伽教練非常有耐心。"
           },
           {
             "word": "intelligence",
-            "pos": "智慧；情報",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "智慧；情報",
             "en": "Artificial intelligence is changing the world.",
             "zh": "人工智慧正在改變世界。"
           },
           {
             "word": "invasion",
-            "pos": "入侵",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "入侵",
             "en": "The country defended itself against the invasion.",
             "zh": "這個國家抵禦了入侵。"
           },
           {
             "word": "issue",
-            "pos": "問題；議題",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "問題；議題",
             "en": "Climate change is a serious issue.",
             "zh": "氣候變遷是一個嚴重的問題。"
           },
           {
             "word": "labyrinth",
-            "pos": "迷宮",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "迷宮",
             "en": "He got lost in the labyrinth.",
             "zh": "他在迷宮裡迷路了。"
           },
           {
             "word": "larvae",
-            "pos": "幼蟲",
-            "meaning": "n. (pl.)",
+            "pos": "n. (pl.)",
+            "meaning": "幼蟲",
             "en": "Mosquito larvae live in water.",
             "zh": "蚊子的幼蟲生活在水中。"
           },
           {
             "word": "lung",
-            "pos": "肺",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "肺",
             "en": "Smoking damages the lungs.",
             "zh": "吸菸會損害肺部。"
           },
           {
             "word": "mammal",
-            "pos": "哺乳動物",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "哺乳動物",
             "en": "Whales are the largest mammals on Earth.",
             "zh": "鯨魚是地球上最大的哺乳動物。"
           },
           {
             "word": "manageable",
-            "pos": "可管理的；易處理的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "可管理的；易處理的",
             "en": "The workload is manageable.",
             "zh": "這個工作量是可以管理的。"
           },
           {
             "word": "mastery",
-            "pos": "精通；掌握",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "精通；掌握",
             "en": "She has mastery of three languages.",
             "zh": "她精通三種語言。"
           },
           {
             "word": "mastery-oriented",
-            "pos": "精通導向的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "精通導向的",
             "en": "A mastery-oriented student focuses on learning rather than grades.",
             "zh": "精通導向的學生專注於學習而非成績。"
           },
           {
             "word": "merge",
-            "pos": "合併；融合",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "合併；融合",
             "en": "The two companies decided to merge.",
             "zh": "這兩家公司決定合併。"
           },
           {
             "word": "metamorphosis",
-            "pos": "變態；蛻變",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "變態；蛻變",
             "en": "A caterpillar undergoes metamorphosis to become a butterfly.",
             "zh": "毛毛蟲經歷蛻變變成蝴蝶。"
           },
           {
             "word": "moist",
-            "pos": "潮濕的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "潮濕的",
             "en": "The soil should be kept moist for the plants.",
             "zh": "植物的土壤應保持濕潤。"
           },
           {
             "word": "monster",
-            "pos": "怪物",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "怪物",
             "en": "The child was afraid of the monster under the bed.",
             "zh": "這個孩子害怕床底下的怪物。"
           },
           {
             "word": "mosquito",
-            "pos": "蚊子",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "蚊子",
             "en": "Mosquito bites can be annoying.",
             "zh": "蚊子叮咬很煩人。"
           },
           {
             "word": "mythology",
-            "pos": "神話",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "神話",
             "en": "Greek mythology is full of fascinating stories.",
             "zh": "希臘神話充滿了迷人的故事。"
           },
           {
             "word": "optional",
-            "pos": "可選擇的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "可選擇的",
             "en": "This course is optional for students.",
             "zh": "這門課對學生來說是選修的。"
           },
           {
             "word": "orient",
-            "pos": "使適應；確定方向",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "使適應；確定方向",
             "en": "The map will help you orient yourself.",
             "zh": "這張地圖將幫助你確定方向。"
           },
           {
             "word": "original",
-            "pos": "原創的；最初的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "原創的；最初的",
             "en": "This is the original version of the book.",
             "zh": "這是這本書的原版。"
           },
           {
             "word": "outstanding",
-            "pos": "傑出的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "傑出的",
             "en": "She is an outstanding student.",
             "zh": "她是一名傑出的學生。"
           },
           {
             "word": "oxygen",
-            "pos": "氧氣",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "氧氣",
             "en": "Humans need oxygen to survive.",
             "zh": "人類需要氧氣才能生存。"
           },
@@ -13300,64 +13300,64 @@ const VOCAB_DATA = [
           },
           {
             "word": "peer",
-            "pos": "同儕",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "同儕",
             "en": "Students often learn from their peers.",
             "zh": "學生經常從同儕中學習。"
           },
           {
             "word": "peer coach",
-            "pos": "同儕教練",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "同儕教練",
             "en": "The peer coach helped her improve her skills.",
             "zh": "同儕教練幫助她提高技能。"
           },
           {
             "word": "performance",
-            "pos": "表現；表演",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "表現；表演",
             "en": "His performance in the test was excellent.",
             "zh": "他的考試表現非常優異。"
           },
           {
             "word": "performance-oriented",
-            "pos": "表現導向的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "表現導向的",
             "en": "A performance-oriented approach focuses on results.",
             "zh": "表現導向的方法專注於結果。"
           },
           {
             "word": "persevere",
-            "pos": "堅持不懈",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "堅持不懈",
             "en": "She persevered despite many challenges.",
             "zh": "儘管面臨許多挑戰，她依然堅持不懈。"
           },
           {
             "word": "pest",
-            "pos": "害蟲",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "害蟲",
             "en": "Farmers use pesticides to control pests.",
             "zh": "農民使用農藥來控制害蟲。"
           },
           {
             "word": "physical",
-            "pos": "身體的；物理的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "身體的；物理的",
             "en": "Regular exercise improves physical health.",
             "zh": "規律運動有助於身體健康。"
           },
           {
             "word": "pilot",
-            "pos": "飛行員",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "飛行員",
             "en": "The pilot safely landed the plane.",
             "zh": "飛行員安全地降落了飛機。"
           },
           {
             "word": "pollution",
-            "pos": "污染",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "污染",
             "en": "Air pollution is a major problem in big cities.",
             "zh": "空氣污染是大城市的一個主要問題。"
           },
@@ -13370,29 +13370,29 @@ const VOCAB_DATA = [
           },
           {
             "word": "professor",
-            "pos": "教授",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "教授",
             "en": "She is a professor of psychology.",
             "zh": "她是一位心理學教授。"
           },
           {
             "word": "psychologist",
-            "pos": "心理學家",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "心理學家",
             "en": "A psychologist studies human behavior.",
             "zh": "心理學家研究人類行為。"
           },
           {
             "word": "punishment",
-            "pos": "處罰",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "處罰",
             "en": "The punishment for cheating is suspension.",
             "zh": "作弊的懲罰是停學。"
           },
           {
             "word": "react",
-            "pos": "反應",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "反應",
             "en": "He reacted angrily to the news.",
             "zh": "他對這則新聞做出了憤怒的反應。"
           },
@@ -13405,22 +13405,22 @@ const VOCAB_DATA = [
           },
           {
             "word": "recommend",
-            "pos": "推薦",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "推薦",
             "en": "I recommend this restaurant.",
             "zh": "我推薦這家餐廳。"
           },
           {
             "word": "response",
-            "pos": "回應",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "回應",
             "en": "He gave a quick response to the question.",
             "zh": "他迅速回答了這個問題。"
           },
           {
             "word": "sake",
-            "pos": "緣故",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "緣故",
             "en": "He did it for the sake of his family.",
             "zh": "他為了家人而做這件事。"
           },
@@ -13433,120 +13433,120 @@ const VOCAB_DATA = [
           },
           {
             "word": "self-awareness",
-            "pos": "自我認知",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "自我認知",
             "en": "Self-awareness is important for personal growth.",
             "zh": "自我認知對個人成長很重要。"
           },
           {
             "word": "semester",
-            "pos": "學期",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "學期",
             "en": "The new semester starts next week.",
             "zh": "新學期下週開始。"
           },
           {
             "word": "shrink",
-            "pos": "縮小",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "縮小",
             "en": "Wool clothes shrink in hot water.",
             "zh": "羊毛衣服在熱水中會縮小。"
           },
           {
             "word": "sincerely",
-            "pos": "真誠地",
-            "meaning": "adv.",
+            "pos": "adv.",
+            "meaning": "真誠地",
             "en": "I sincerely apologize for the mistake.",
             "zh": "我真誠地為這個錯誤道歉。"
           },
           {
             "word": "slight",
-            "pos": "輕微的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "輕微的",
             "en": "There was a slight delay in the flight.",
             "zh": "航班有些許延誤。"
           },
           {
             "word": "slightly",
-            "pos": "稍微地",
-            "meaning": "adv.",
+            "pos": "adv.",
+            "meaning": "稍微地",
             "en": "The temperature dropped slightly.",
             "zh": "氣溫稍微下降了。"
           },
           {
             "word": "slippery",
-            "pos": "滑的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "滑的",
             "en": "The road is slippery after the rain.",
             "zh": "下雨後道路變得很滑。"
           },
           {
             "word": "soak",
-            "pos": "浸泡",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "浸泡",
             "en": "She soaked her feet in warm water.",
             "zh": "她把腳泡在溫水中。"
           },
           {
             "word": "species",
-            "pos": "物種",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "物種",
             "en": "There are many endangered species.",
             "zh": "有許多瀕臨絕種的物種。"
           },
           {
             "word": "spine",
-            "pos": "脊椎；書脊",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "脊椎；書脊",
             "en": "The human spine consists of 33 vertebrae.",
             "zh": "人類的脊椎由 33 塊椎骨組成。"
           },
           {
             "word": "staff",
-            "pos": "員工；工作人員",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "員工；工作人員",
             "en": "The hospital staff is well-trained.",
             "zh": "這家醫院的員工都受過良好訓練。"
           },
           {
             "word": "sum",
-            "pos": "總和；金額",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "總和；金額",
             "en": "The sum of 5 and 10 is 15.",
             "zh": "5 和 10 的總和是 15。"
           },
           {
             "word": "sustain",
-            "pos": "維持；支撐",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "維持；支撐",
             "en": "Plants need water to sustain life.",
             "zh": "植物需要水來維持生命。"
           },
           {
             "word": "talent",
-            "pos": "天賦；才能",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "天賦；才能",
             "en": "She has a talent for painting.",
             "zh": "她有繪畫的天賦。"
           },
           {
             "word": "threaten",
-            "pos": "威脅",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "威脅",
             "en": "Climate change threatens many species.",
             "zh": "氣候變遷威脅許多物種的生存。"
           },
           {
             "word": "transformation",
-            "pos": "轉變；變化",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "轉變；變化",
             "en": "The city has undergone a major transformation.",
             "zh": "這座城市經歷了重大變化。"
           },
           {
             "word": "tricky",
-            "pos": "棘手的；狡猾的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "棘手的；狡猾的",
             "en": "This is a tricky question to answer.",
             "zh": "這是一個棘手的問題。"
           },
@@ -13559,8 +13559,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "vulnerable",
-            "pos": "易受傷的；脆弱的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "易受傷的；脆弱的",
             "en": "Young children are vulnerable to diseases.",
             "zh": "幼兒容易受到疾病的侵害。"
           }
@@ -13572,71 +13572,71 @@ const VOCAB_DATA = [
         "words": [
           {
             "word": "accommodate",
-            "pos": "容納；適應",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "容納；適應",
             "en": "The hotel can accommodate 200 guests.",
             "zh": "這家飯店可容納 200 名客人。"
           },
           {
             "word": "ad",
-            "pos": "廣告",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "廣告",
             "en": "I saw an interesting ad on TV.",
             "zh": "我在電視上看到了一個有趣的廣告。"
           },
           {
             "word": "announcement",
-            "pos": "公告；宣佈",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "公告；宣佈",
             "en": "The principal made an important announcement.",
             "zh": "校長發表了一項重要公告。"
           },
           {
             "word": "application",
-            "pos": "申請；應用",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "申請；應用",
             "en": "He submitted his job application yesterday.",
             "zh": "他昨天提交了他的工作申請。"
           },
           {
             "word": "arms",
-            "pos": "武器；手臂",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "武器；手臂",
             "en": "The country is reducing its stockpile of arms.",
             "zh": "這個國家正在減少武器庫存。"
           },
           {
             "word": "assignment",
-            "pos": "作業；任務",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "作業；任務",
             "en": "We have a math assignment due tomorrow.",
             "zh": "我們有一份數學作業明天要交。"
           },
           {
             "word": "attach",
-            "pos": "附加；黏貼",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "附加；黏貼",
             "en": "Please attach the document to the email.",
             "zh": "請將文件附加到電子郵件中。"
           },
           {
             "word": "aware",
-            "pos": "意識到的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "意識到的",
             "en": "She was aware of the dangers.",
             "zh": "她意識到了這些危險。"
           },
           {
             "word": "billion",
-            "pos": "十億",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "十億",
             "en": "The company made a billion dollars in profit.",
             "zh": "這家公司獲得了十億美元的利潤。"
           },
           {
             "word": "certificate",
-            "pos": "證書；證明",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "證書；證明",
             "en": "She received a certificate of achievement.",
             "zh": "她獲得了一張成就證書。"
           },
@@ -13649,99 +13649,99 @@ const VOCAB_DATA = [
           },
           {
             "word": "communication",
-            "pos": "溝通",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "溝通",
             "en": "Effective communication is important in a relationship.",
             "zh": "有效的溝通在關係中很重要。"
           },
           {
             "word": "confusion",
-            "pos": "混亂；困惑",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "混亂；困惑",
             "en": "The new rules caused a lot of confusion.",
             "zh": "新規則引起了很多困惑。"
           },
           {
             "word": "context",
-            "pos": "上下文；背景",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "上下文；背景",
             "en": "You should read the word in context.",
             "zh": "你應該根據上下文理解這個單詞。"
           },
           {
             "word": "culture",
-            "pos": "文化",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "文化",
             "en": "Chinese culture has a long history.",
             "zh": "中華文化有悠久的歷史。"
           },
           {
             "word": "despite",
-            "pos": "儘管",
-            "meaning": "prep.",
+            "pos": "prep.",
+            "meaning": "儘管",
             "en": "Despite the rain, they continued their journey.",
             "zh": "儘管下雨，他們仍繼續旅行。"
           },
           {
             "word": "detective",
-            "pos": "偵探",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "偵探",
             "en": "Sherlock Holmes is a famous detective.",
             "zh": "福爾摩斯是一位著名的偵探。"
           },
           {
             "word": "diligence",
-            "pos": "勤奮",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "勤奮",
             "en": "His diligence helped him succeed.",
             "zh": "他的勤奮幫助他成功。"
           },
           {
             "word": "diligent",
-            "pos": "勤勉的；努力的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "勤勉的；努力的",
             "en": "She is a diligent student.",
             "zh": "她是一個勤奮的學生。"
           },
           {
             "word": "disc",
-            "pos": "圓盤；光碟",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "圓盤；光碟",
             "en": "He burned the files onto a disc.",
             "zh": "他把文件燒錄到光碟上。"
           },
           {
             "word": "discussion board",
-            "pos": "討論區",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "討論區",
             "en": "I posted my question on the discussion board.",
             "zh": "我在討論區發表了我的問題。"
           },
           {
             "word": "exaggerate",
-            "pos": "誇大",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "誇大",
             "en": "He tends to exaggerate his achievements.",
             "zh": "他往往誇大自己的成就。"
           },
           {
             "word": "exception",
-            "pos": "例外",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "例外",
             "en": "There is an exception to every rule.",
             "zh": "每條規則都有例外。"
           },
           {
             "word": "expectation",
-            "pos": "期望",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "期望",
             "en": "She has high expectations for her students.",
             "zh": "她對學生有很高的期望。"
           },
           {
             "word": "extension",
-            "pos": "延期；擴展",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "延期；擴展",
             "en": "The deadline was given a one-week extension.",
             "zh": "截止日期延長了一週。"
           },
@@ -13754,43 +13754,43 @@ const VOCAB_DATA = [
           },
           {
             "word": "fantastic",
-            "pos": "極好的；奇妙的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "極好的；奇妙的",
             "en": "We had a fantastic time at the party.",
             "zh": "我們在派對上玩得很開心。"
           },
           {
             "word": "fictional",
-            "pos": "虛構的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "虛構的",
             "en": "Harry Potter is a fictional character.",
             "zh": "哈利波特是一個虛構角色。"
           },
           {
             "word": "galaxy",
-            "pos": "星系",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "星系",
             "en": "The Milky Way is the galaxy we live in.",
             "zh": "銀河系是我們所在的星系。"
           },
           {
             "word": "imagination",
-            "pos": "想像力",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "想像力",
             "en": "Children have great imagination.",
             "zh": "孩子們有豐富的想像力。"
           },
           {
             "word": "impede",
-            "pos": "妨礙",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "妨礙",
             "en": "His injury impeded his ability to play soccer.",
             "zh": "他的傷勢妨礙了他踢足球的能力。"
           },
           {
             "word": "intelligence",
-            "pos": "智慧；情報",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "智慧；情報",
             "en": "Artificial intelligence is advancing rapidly.",
             "zh": "人工智慧正在迅速發展。"
           },
@@ -13803,8 +13803,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "journey",
-            "pos": "旅程",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "旅程",
             "en": "Their journey lasted for three months.",
             "zh": "他們的旅程持續了三個月。"
           },
@@ -13817,57 +13817,57 @@ const VOCAB_DATA = [
           },
           {
             "word": "literature",
-            "pos": "文學",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "文學",
             "en": "She is studying English literature.",
             "zh": "她正在學習英國文學。"
           },
           {
             "word": "messy",
-            "pos": "混亂的；凌亂的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "混亂的；凌亂的",
             "en": "His room is always messy.",
             "zh": "他的房間總是亂七八糟的。"
           },
           {
             "word": "misinformation",
-            "pos": "誤導性資訊",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "誤導性資訊",
             "en": "The spread of misinformation can be dangerous.",
             "zh": "假資訊的傳播可能是危險的。"
           },
           {
             "word": "mocking",
-            "pos": "嘲弄的；諷刺的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "嘲弄的；諷刺的",
             "en": "He made a mocking remark about her accent.",
             "zh": "他對她的口音做出諷刺的評論。"
           },
           {
             "word": "mystery",
-            "pos": "神秘；謎",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "神秘；謎",
             "en": "The cause of the fire remains a mystery.",
             "zh": "火災的原因仍然是個謎。"
           },
           {
             "word": "nowhere",
-            "pos": "無處；沒有地方",
-            "meaning": "adv.",
+            "pos": "adv.",
+            "meaning": "無處；沒有地方",
             "en": "I searched everywhere, but the keys were nowhere to be found.",
             "zh": "我到處找，但鑰匙卻找不到。"
           },
           {
             "word": "nutrition",
-            "pos": "營養",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "營養",
             "en": "Good nutrition is essential for a healthy body.",
             "zh": "良好的營養對健康的身體至關重要。"
           },
           {
             "word": "observation",
-            "pos": "觀察；觀察結果",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "觀察；觀察結果",
             "en": "His observation about the experiment was accurate.",
             "zh": "他對這個實驗的觀察是準確的。"
           },
@@ -13887,43 +13887,43 @@ const VOCAB_DATA = [
           },
           {
             "word": "prejudice",
-            "pos": "偏見",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "偏見",
             "en": "We must fight against racial prejudice.",
             "zh": "我們必須對抗種族偏見。"
           },
           {
             "word": "probably",
-            "pos": "可能",
-            "meaning": "adv.",
+            "pos": "adv.",
+            "meaning": "可能",
             "en": "It will probably rain tomorrow.",
             "zh": "明天可能會下雨。"
           },
           {
             "word": "professor",
-            "pos": "教授",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "教授",
             "en": "He is a professor of physics.",
             "zh": "他是物理學教授。"
           },
           {
             "word": "publish",
-            "pos": "出版；發表",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "出版；發表",
             "en": "The author published her first novel last year.",
             "zh": "這位作家去年出版了她的第一本小說。"
           },
           {
             "word": "recognize",
-            "pos": "認出；承認",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "認出；承認",
             "en": "I hardly recognized him after so many years.",
             "zh": "經過這麼多年，我幾乎認不出他了。"
           },
           {
             "word": "refer",
-            "pos": "提及；參考",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "提及；參考",
             "en": "He referred to the book during his speech.",
             "zh": "他在演講時提到了這本書。"
           },
@@ -13936,8 +13936,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "reminder",
-            "pos": "提醒；提示",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "提醒；提示",
             "en": "I set a reminder for my meeting at 3 PM.",
             "zh": "我設定了一個下午 3 點的會議提醒。"
           },
@@ -13950,57 +13950,57 @@ const VOCAB_DATA = [
           },
           {
             "word": "romantic",
-            "pos": "浪漫的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "浪漫的",
             "en": "The couple had a romantic dinner by the beach.",
             "zh": "這對情侶在海邊享用了一頓浪漫的晚餐。"
           },
           {
             "word": "roughly",
-            "pos": "大約；粗略地",
-            "meaning": "adv.",
+            "pos": "adv.",
+            "meaning": "大約；粗略地",
             "en": "The trip will take roughly three hours.",
             "zh": "這次旅程大約需要三個小時。"
           },
           {
             "word": "series",
-            "pos": "系列",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "系列",
             "en": "She wrote a popular fantasy book series.",
             "zh": "她寫了一套受歡迎的奇幻小說系列。"
           },
           {
             "word": "setting",
-            "pos": "環境；背景",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "環境；背景",
             "en": "The story takes place in a medieval setting.",
             "zh": "這個故事發生在中世紀背景下。"
           },
           {
             "word": "site",
-            "pos": "地點；網站",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "地點；網站",
             "en": "This is a historical site.",
             "zh": "這是一個歷史遺址。"
           },
           {
             "word": "societal",
-            "pos": "社會的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "社會的",
             "en": "The movie addresses important societal issues.",
             "zh": "這部電影探討了重要的社會問題。"
           },
           {
             "word": "solar",
-            "pos": "太陽的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "太陽的",
             "en": "The house is powered by solar energy.",
             "zh": "這棟房子由太陽能供電。"
           },
           {
             "word": "solar system",
-            "pos": "太陽系",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "太陽系",
             "en": "There are eight planets in our solar system.",
             "zh": "我們的太陽系有八顆行星。"
           },
@@ -14013,29 +14013,29 @@ const VOCAB_DATA = [
           },
           {
             "word": "studio",
-            "pos": "工作室；錄音室",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "工作室；錄音室",
             "en": "She works in a photography studio.",
             "zh": "她在一間攝影工作室工作。"
           },
           {
             "word": "submit",
-            "pos": "提交",
-            "meaning": "v.",
+            "pos": "v.",
+            "meaning": "提交",
             "en": "Please submit your application by Friday.",
             "zh": "請在星期五前提交申請。"
           },
           {
             "word": "subtle",
-            "pos": "微妙的；不易察覺的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "微妙的；不易察覺的",
             "en": "There was a subtle change in his behavior.",
             "zh": "他的行為有一個微妙的變化。"
           },
           {
             "word": "technique",
-            "pos": "技巧；技術",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "技巧；技術",
             "en": "He has an excellent painting technique.",
             "zh": "他有出色的繪畫技術。"
           },
@@ -14048,50 +14048,50 @@ const VOCAB_DATA = [
           },
           {
             "word": "unlikely",
-            "pos": "不太可能的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "不太可能的",
             "en": "It is unlikely that he will come today.",
             "zh": "他今天來的可能性不大。"
           },
           {
             "word": "unrelated",
-            "pos": "無關的",
-            "meaning": "adj.",
+            "pos": "adj.",
+            "meaning": "無關的",
             "en": "His comment was completely unrelated to the topic.",
             "zh": "他的評論與這個話題完全無關。"
           },
           {
             "word": "variety",
-            "pos": "多樣性；種類",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "多樣性；種類",
             "en": "The store sells a variety of snacks.",
             "zh": "這家商店販售各種零食。"
           },
           {
             "word": "website",
-            "pos": "網站",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "網站",
             "en": "You can find more information on their website.",
             "zh": "你可以在他們的網站上找到更多資訊。"
           },
           {
             "word": "wellness",
-            "pos": "健康；身心健康",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "健康；身心健康",
             "en": "She focuses on overall wellness and mental health.",
             "zh": "她注重整體健康和心理健康。"
           },
           {
             "word": "witch",
-            "pos": "女巫",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "女巫",
             "en": "The old woman was believed to be a witch.",
             "zh": "這位老太太被認為是個女巫。"
           },
           {
             "word": "wizard",
-            "pos": "巫師",
-            "meaning": "n.",
+            "pos": "n.",
+            "meaning": "巫師",
             "en": "The wizard cast a powerful spell.",
             "zh": "巫師施放了一個強大的魔法。"
           }

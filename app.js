@@ -71,11 +71,16 @@ function renderQuizQuestion() {
   const quiz = currentState.quiz;
   const currentWord = quiz.words[quiz.currentIndex];
   
-  // Generate Distractors (using word.meaning exclusively)
+  // Generate Distractors (using word.meaning exclusively with safety filter)
   const allMeanings = [];
+  const grammaticalPattern = /^(n\.|v\.|adj\.|adv\.|prep\.|conj\.|pron\.|num\.|art\.|int\.|pos|\(.*\))/i;
+
   VOCAB_DATA.forEach(m => m.units.forEach(u => u.words.forEach(w => {
-    if (w.meaning !== currentWord.meaning && w.meaning.length > 1) {
-      allMeanings.push(w.meaning);
+    if (w.meaning !== currentWord.meaning && w.meaning.length > 2) {
+      // Safety Filter: Ensure distractor is NOT a grammatical label
+      if (!grammaticalPattern.test(w.meaning)) {
+        allMeanings.push(w.meaning);
+      }
     }
   })));
   

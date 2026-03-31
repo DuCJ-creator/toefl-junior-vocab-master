@@ -9911,8 +9911,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "apart",
-            "pos": "分開的；相距的",
-            "meaning": "adv./adj.",
+            "pos": "adv./adj.",
+            "meaning": "分開的；相距的",
             "en": "The two buildings are 100 meters apart.",
             "zh": "這兩棟建築物相距 100 米。"
           },
@@ -9960,8 +9960,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "bump",
-            "pos": "撞擊；腫塊",
-            "meaning": "v./n.",
+            "pos": "v./n.",
+            "meaning": "撞擊；腫塊",
             "en": "He bumped his head on the door.",
             "zh": "他撞到了門，頭上起了一個包。"
           },
@@ -10065,8 +10065,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "dislike",
-            "pos": "不喜歡",
-            "meaning": "v./n.",
+            "pos": "v./n.",
+            "meaning": "不喜歡",
             "en": "She dislikes spicy food.",
             "zh": "她不喜歡辛辣的食物。"
           },
@@ -10100,8 +10100,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "equal",
-            "pos": "平等的；相等的",
-            "meaning": "adj./n.",
+            "pos": "adj./n.",
+            "meaning": "平等的；相等的",
             "en": "Everyone should have equal rights.",
             "zh": "每個人都應該擁有平等的權利。"
           },
@@ -10121,8 +10121,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "extra",
-            "pos": "額外的",
-            "meaning": "adj./adv./n.",
+            "pos": "adj./adv./n.",
+            "meaning": "額外的",
             "en": "Can I get an extra piece of cake?",
             "zh": "我可以再來一塊蛋糕嗎？"
           },
@@ -10219,8 +10219,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "lecture",
-            "pos": "演講；授課",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "演講；授課",
             "en": "The professor gave a lecture on history.",
             "zh": "教授做了一場歷史講座。"
           },
@@ -10233,8 +10233,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "lounge",
-            "pos": "休息室；閒逛",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "休息室；閒逛",
             "en": "They relaxed in the hotel lounge.",
             "zh": "他們在酒店休息室放鬆。"
           },
@@ -10261,8 +10261,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "microwave",
-            "pos": "微波爐；用微波爐加熱",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "微波爐；用微波爐加熱",
             "en": "He microwaved his lunch for two minutes.",
             "zh": "他用微波爐加熱午餐兩分鐘。"
           },
@@ -10303,8 +10303,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "oval",
-            "pos": "橢圓形的；橢圓形",
-            "meaning": "adj./n.",
+            "pos": "adj./n.",
+            "meaning": "橢圓形的；橢圓形",
             "en": "The table has an oval shape.",
             "zh": "這張桌子是橢圓形的。"
           },
@@ -10324,8 +10324,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "practice",
-            "pos": "練習；實踐",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "練習；實踐",
             "en": "You need more practice to improve your skills.",
             "zh": "你需要更多練習來提升技能。"
           },
@@ -10387,8 +10387,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "seal",
-            "pos": "海豹；密封",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "海豹；密封",
             "en": "He sealed the envelope before mailing it.",
             "zh": "他在寄信前封好了信封。"
           },
@@ -11691,8 +11691,8 @@ const VOCAB_DATA = [
         "words": [
           {
             "word": "academic",
-            "pos": "學術的；學者",
-            "meaning": "adj./n.",
+            "pos": "adj./n.",
+            "meaning": "學術的；學者",
             "en": "She has an excellent academic record.",
             "zh": "她有優秀的學術成績。"
           },
@@ -11775,8 +11775,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "auxiliary",
-            "pos": "輔助的；助動詞",
-            "meaning": "adj./n.",
+            "pos": "adj./n.",
+            "meaning": "輔助的；助動詞",
             "en": "\"Be\" is an auxiliary verb in passive sentences.",
             "zh": "“Be” 是被動句中的助動詞。"
           },
@@ -11845,8 +11845,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "collapse",
-            "pos": "倒塌；崩潰",
-            "meaning": "v./n.",
+            "pos": "v./n.",
+            "meaning": "倒塌；崩潰",
             "en": "The building collapsed after the earthquake.",
             "zh": "這座建築在地震後倒塌了。"
           },
@@ -11880,8 +11880,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "complement",
-            "pos": "補足；補語",
-            "meaning": "v./n.",
+            "pos": "v./n.",
+            "meaning": "補足；補語",
             "en": "The red wine complements the meal perfectly.",
             "zh": "紅酒與這頓飯完美搭配。"
           },
@@ -11894,8 +11894,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "compound",
-            "pos": "複合物；複合的",
-            "meaning": "n./adj.",
+            "pos": "n./adj.",
+            "meaning": "複合物；複合的",
             "en": "\"Greenhouse\" is a compound noun.",
             "zh": "“Greenhouse” 是一個複合名詞。"
           },
@@ -11950,15 +11950,15 @@ const VOCAB_DATA = [
           },
           {
             "word": "consent",
-            "pos": "同意",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "同意",
             "en": "She gave her consent to the treatment.",
             "zh": "她同意接受治療。"
           },
           {
             "word": "contest",
-            "pos": "比賽；競爭",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "比賽；競爭",
             "en": "She won the singing contest.",
             "zh": "她贏得了歌唱比賽。"
           },
@@ -11999,15 +11999,15 @@ const VOCAB_DATA = [
           },
           {
             "word": "crash",
-            "pos": "撞擊；崩潰",
-            "meaning": "v./n.",
+            "pos": "v./n.",
+            "meaning": "撞擊；崩潰",
             "en": "The computer crashed suddenly.",
             "zh": "電腦突然當機了。"
           },
           {
             "word": "cross",
-            "pos": "穿越；交叉",
-            "meaning": "v./n.",
+            "pos": "v./n.",
+            "meaning": "穿越；交叉",
             "en": "She crossed the street carefully.",
             "zh": "她小心地過馬路。"
           },
@@ -12048,15 +12048,15 @@ const VOCAB_DATA = [
           },
           {
             "word": "dislike",
-            "pos": "不喜歡",
-            "meaning": "v./n.",
+            "pos": "v./n.",
+            "meaning": "不喜歡",
             "en": "She dislikes spicy food.",
             "zh": "她不喜歡辛辣的食物。"
           },
           {
             "word": "document",
-            "pos": "文件；記錄",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "文件；記錄",
             "en": "Please upload the required document.",
             "zh": "請上傳所需的文件。"
           },
@@ -12118,8 +12118,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "fancy",
-            "pos": "精緻的；喜愛",
-            "meaning": "adj./v.",
+            "pos": "adj./v.",
+            "meaning": "精緻的；喜愛",
             "en": "She wore a fancy dress to the party.",
             "zh": "她穿了一件華麗的裙子去參加派對。"
           },
@@ -12279,8 +12279,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "junior",
-            "pos": "年幼的；資歷較淺者",
-            "meaning": "adj./n.",
+            "pos": "adj./n.",
+            "meaning": "年幼的；資歷較淺者",
             "en": "He is a junior employee at the company.",
             "zh": "他是這家公司的資淺員工。"
           },
@@ -12307,8 +12307,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "lock",
-            "pos": "鎖住；鎖",
-            "meaning": "v./n.",
+            "pos": "v./n.",
+            "meaning": "鎖住；鎖",
             "en": "Please lock the door before leaving.",
             "zh": "離開前請鎖上門。"
           },
@@ -12335,8 +12335,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "minus",
-            "pos": "減去；負的",
-            "meaning": "prep./adj./n.",
+            "pos": "prep./adj./n.",
+            "meaning": "減去；負的",
             "en": "Five minus three is two.",
             "zh": "五減三等於二。"
           },
@@ -12391,8 +12391,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "nap",
-            "pos": "小睡",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "小睡",
             "en": "He took a short nap after lunch.",
             "zh": "他在午飯後小睡了一會兒。"
           },
@@ -12461,8 +12461,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "permit",
-            "pos": "允許；許可證",
-            "meaning": "v./n.",
+            "pos": "v./n.",
+            "meaning": "允許；許可證",
             "en": "Smoking is not permitted in the building.",
             "zh": "這棟建築內不允許吸煙。"
           },
@@ -12482,8 +12482,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "plural",
-            "pos": "複數的；複數",
-            "meaning": "adj./n.",
+            "pos": "adj./n.",
+            "meaning": "複數的；複數",
             "en": "\"Cats\" is the plural form of \"cat.\"",
             "zh": "“cats” 是 “cat” 的複數形式。"
           },
@@ -12524,15 +12524,15 @@ const VOCAB_DATA = [
           },
           {
             "word": "process",
-            "pos": "過程；處理",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "過程；處理",
             "en": "The application is still being processed.",
             "zh": "申請仍在處理中。"
           },
           {
             "word": "quake",
-            "pos": "震動；地震",
-            "meaning": "v./n.",
+            "pos": "v./n.",
+            "meaning": "震動；地震",
             "en": "The ground quaked during the earthquake.",
             "zh": "地震時地面震動了。"
           },
@@ -12573,15 +12573,15 @@ const VOCAB_DATA = [
           },
           {
             "word": "register",
-            "pos": "登記；註冊",
-            "meaning": "v./n.",
+            "pos": "v./n.",
+            "meaning": "登記；註冊",
             "en": "You must register before the event.",
             "zh": "你必須在活動前註冊。"
           },
           {
             "word": "regret",
-            "pos": "後悔；遺憾",
-            "meaning": "v./n.",
+            "pos": "v./n.",
+            "meaning": "後悔；遺憾",
             "en": "He regrets not studying harder.",
             "zh": "他後悔沒有更努力學習。"
           },
@@ -12608,8 +12608,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "request",
-            "pos": "請求",
-            "meaning": "v./n.",
+            "pos": "v./n.",
+            "meaning": "請求",
             "en": "He requested more information.",
             "zh": "他請求獲得更多資訊。"
           },
@@ -12629,8 +12629,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "risk",
-            "pos": "風險；冒險",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "風險；冒險",
             "en": "He took a big risk by investing in that company.",
             "zh": "他投資那家公司冒了很大的風險。"
           },
@@ -12650,8 +12650,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "singular",
-            "pos": "單數的；單數",
-            "meaning": "adj./n.",
+            "pos": "adj./n.",
+            "meaning": "單數的；單數",
             "en": "\"Dog\" is the singular form of \"dogs.\"",
             "zh": "“dog” 是 “dogs” 的單數形式。"
           },
@@ -12776,29 +12776,29 @@ const VOCAB_DATA = [
           },
           {
             "word": "tense",
-            "pos": "時態；緊張的",
-            "meaning": "n./adj.",
+            "pos": "n./adj.",
+            "meaning": "時態；緊張的",
             "en": "The atmosphere in the room was very tense.",
             "zh": "房間裡的氣氛非常緊張。"
           },
           {
             "word": "terminal",
-            "pos": "航站；終點的；末期的",
-            "meaning": "n./adj.",
+            "pos": "n./adj.",
+            "meaning": "航站；終點的；末期的",
             "en": "The bus will stop at the terminal.",
             "zh": "公車將停在終點站。"
           },
           {
             "word": "timely",
-            "pos": "及時的；適時地",
-            "meaning": "adj./adv.",
+            "pos": "adj./adv.",
+            "meaning": "及時的；適時地",
             "en": "His timely arrival prevented a disaster.",
             "zh": "他的及時到達避免了一場災難。"
           },
           {
             "word": "tower",
-            "pos": "塔；高聳",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "塔；高聳",
             "en": "The Eiffel Tower is a famous landmark.",
             "zh": "艾菲爾鐵塔是一個著名的地標。"
           },
@@ -12859,8 +12859,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "approach",
-            "pos": "靠近；方法",
-            "meaning": "v./n.",
+            "pos": "v./n.",
+            "meaning": "靠近；方法",
             "en": "We need a new approach to solve this problem.",
             "zh": "我們需要一種新的方法來解決這個問題。"
           },
@@ -12880,15 +12880,15 @@ const VOCAB_DATA = [
           },
           {
             "word": "benefit",
-            "pos": "好處；受益",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "好處；受益",
             "en": "Exercising regularly benefits your health.",
             "zh": "規律運動對健康有益。"
           },
           {
             "word": "boost",
-            "pos": "提升；增強",
-            "meaning": "v./n.",
+            "pos": "v./n.",
+            "meaning": "提升；增強",
             "en": "Drinking coffee can boost energy levels.",
             "zh": "喝咖啡可以提高能量水平。"
           },
@@ -12929,15 +12929,15 @@ const VOCAB_DATA = [
           },
           {
             "word": "catch up",
-            "pos": "追上；趕上",
-            "meaning": "ph.",
+            "pos": "ph.",
+            "meaning": "追上；趕上",
             "en": "He studied hard to catch up with his classmates.",
             "zh": "他努力學習以趕上同學。"
           },
           {
             "word": "challenge",
-            "pos": "挑戰",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "挑戰",
             "en": "Learning a new language is a challenge.",
             "zh": "學習一門新語言是一種挑戰。"
           },
@@ -12985,8 +12985,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "content",
-            "pos": "內容；滿足的",
-            "meaning": "n./adj.",
+            "pos": "n./adj.",
+            "meaning": "內容；滿足的",
             "en": "The content of the book is very interesting.",
             "zh": "這本書的內容非常有趣。"
           },
@@ -13125,8 +13125,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "individual",
-            "pos": "個人；個別的",
-            "meaning": "n./adj.",
+            "pos": "n./adj.",
+            "meaning": "個人；個別的",
             "en": "Every individual has unique talents.",
             "zh": "每個人都有獨特的才能。"
           },
@@ -13293,8 +13293,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "paddle",
-            "pos": "槳；划槳",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "槳；划槳",
             "en": "They used a paddle to move the boat.",
             "zh": "他們用槳來划船。"
           },
@@ -13363,8 +13363,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "process",
-            "pos": "過程；處理",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "過程；處理",
             "en": "The application is still being processed.",
             "zh": "申請仍在處理中。"
           },
@@ -13398,8 +13398,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "rebel",
-            "pos": "反叛者；反抗",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "反叛者；反抗",
             "en": "The rebels fought against the government.",
             "zh": "叛軍與政府作戰。"
           },
@@ -13426,8 +13426,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "schedule",
-            "pos": "行程；安排",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "行程；安排",
             "en": "The meeting is scheduled for Monday.",
             "zh": "會議安排在星期一。"
           },
@@ -13552,8 +13552,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "vertebrate",
-            "pos": "脊椎動物；有脊椎的",
-            "meaning": "n./adj.",
+            "pos": "n./adj.",
+            "meaning": "脊椎動物；有脊椎的",
             "en": "Birds, fish, and mammals are vertebrates.",
             "zh": "鳥類、魚類和哺乳類都是脊椎動物。"
           },
@@ -13642,8 +13642,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "comfort",
-            "pos": "舒適；安慰",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "舒適；安慰",
             "en": "His words gave me great comfort.",
             "zh": "他的話給了我極大的安慰。"
           },
@@ -13747,8 +13747,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "fake",
-            "pos": "假的；假貨",
-            "meaning": "adj./n.",
+            "pos": "adj./n.",
+            "meaning": "假的；假貨",
             "en": "The painting turned out to be a fake.",
             "zh": "這幅畫結果是贗品。"
           },
@@ -13796,8 +13796,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "issue",
-            "pos": "問題；發行",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "問題；發行",
             "en": "Climate change is a serious issue.",
             "zh": "氣候變遷是一個嚴重的問題。"
           },
@@ -13810,8 +13810,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "lecture",
-            "pos": "演講；講課",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "演講；講課",
             "en": "The professor gave a lecture on history.",
             "zh": "教授進行了一場歷史講座。"
           },
@@ -13873,15 +13873,15 @@ const VOCAB_DATA = [
           },
           {
             "word": "orbit",
-            "pos": "軌道；環繞軌道運行",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "軌道；環繞軌道運行",
             "en": "The Earth orbits around the sun.",
             "zh": "地球繞著太陽運行。"
           },
           {
             "word": "Photoshop",
-            "pos": "Photoshop（修圖軟體）",
-            "meaning": "n./v.",
+            "pos": "n./v.",
+            "meaning": "Photoshop（修圖軟體）",
             "en": "He used Photoshop to edit the image.",
             "zh": "他使用 Photoshop 來編輯圖片。"
           },
@@ -13929,8 +13929,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "referred to as",
-            "pos": "被稱為",
-            "meaning": "ph.",
+            "pos": "ph.",
+            "meaning": "被稱為",
             "en": "This plant is often referred to as the \"king of herbs.\"",
             "zh": "這種植物通常被稱為“草藥之王”。"
           },
@@ -13943,8 +13943,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "reverse",
-            "pos": "逆轉；相反",
-            "meaning": "v./n.",
+            "pos": "v./n.",
+            "meaning": "逆轉；相反",
             "en": "He reversed the car into the parking spot.",
             "zh": "他把車倒進停車位。"
           },
@@ -14006,8 +14006,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "spiral",
-            "pos": "螺旋狀的；螺旋",
-            "meaning": "adj./n.",
+            "pos": "adj./n.",
+            "meaning": "螺旋狀的；螺旋",
             "en": "The staircase has a beautiful spiral design.",
             "zh": "這個樓梯有一個美麗的螺旋設計。"
           },
@@ -14041,8 +14041,8 @@ const VOCAB_DATA = [
           },
           {
             "word": "transport",
-            "pos": "運輸",
-            "meaning": "v./n.",
+            "pos": "v./n.",
+            "meaning": "運輸",
             "en": "Goods are transported by truck.",
             "zh": "貨物是由卡車運輸的。"
           },

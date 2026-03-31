@@ -73,12 +73,15 @@ function renderQuizQuestion() {
   
   // Generate Distractors (using word.meaning exclusively with safety filter)
   const allMeanings = [];
-  const grammaticalPattern = /^(n\.|v\.|adj\.|adv\.|prep\.|conj\.|pron\.|num\.|art\.|int\.|pos|\(.*\))/i;
+  const grammaticalPattern = /^[a-zA-Z. /(),]+$/; // Labels like n., v./adj., (pl.)
 
   VOCAB_DATA.forEach(m => m.units.forEach(u => u.words.forEach(w => {
-    if (w.meaning !== currentWord.meaning && w.meaning.length > 2) {
-      // Safety Filter: Ensure distractor is NOT a grammatical label
-      if (!grammaticalPattern.test(w.meaning)) {
+    const isLabel = grammaticalPattern.test(w.meaning);
+    const hasChinese = /[\u4e00-\u9fff]/.test(w.meaning);
+    
+    // Safety Filter: Meaning must NOT be just a label AND should ideally have Chinese
+    if (w.meaning !== currentWord.meaning && w.meaning.length > 1) {
+      if (!isLabel || hasChinese) {
         allMeanings.push(w.meaning);
       }
     }

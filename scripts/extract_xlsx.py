@@ -52,10 +52,11 @@ def rc_sort_key(filename):
         return (4, num)
     return (5, name)
 
-def is_grammatical_label(text):
-    labels = ["n.", "v.", "adj.", "adv.", "prep.", "conj.", "pron.", "num.", "art.", "int.", "(pl.)", "(adj.)", "(v.)", "(adv.)", "pos"]
-    text_clean = str(text).lower().strip()
-    return any(text_clean == l or text_clean.startswith(l + " ") or text_clean.endswith(" " + l) for l in labels)
+def is_pure_pos_label(text):
+    # Regex for strings like "n.", "v.", "n./v.", "adj./n.", "n. (pl.)", "prep.", etc.
+    # Basically anything that contains ONLY: letters, dots, spaces, slashes, parentheses, commas.
+    if not text: return False
+    return bool(re.match(r'^[a-zA-Z. /(),]+$', str(text).strip()))
 
 def has_chinese(text):
     return any(u'\u4e00' <= char <= u'\u9fff' for char in str(text))
@@ -94,9 +95,11 @@ def process_all_materials(base_path):
                         pos = str(row.get('B', '')).strip()
                         meaning = str(row.get('C', '')).strip()
                         
-                        # INTELLIGENT AUTO-SWAP: If Meaning looks like POS and POS looks like Meaning
-                        if is_grammatical_label(meaning) and (has_chinese(pos) or not is_grammatical_label(pos)):
-                            # print(f"  Swapping POS/Meaning for: {word}")
+                        # ZERO-TOLERANCE AUTO-SWAP: 
+                        # If Meaning is just a POS label (no Chinese) 
+                        # AND POS contains Chinese (or doesn't look like a label)
+                        if is_pure_pos_label(meaning) and (has_chinese(pos) or not is_pure_pos_label(pos)):
+                            # print(f"  Swapping POS/Meaning for: {word} ('{pos}' <-> '{meaning}')")
                             pos, meaning = meaning, pos
 
                         words.append({
@@ -123,4 +126,4 @@ if __name__ == "__main__":
     content = f"const VOCAB_DATA = {json.dumps(final_data, indent=2, ensure_ascii=False)};\n\nexport default VOCAB_DATA;"
     with open("data.js", "w", encoding="utf-8") as f:
         f.write(content)
-    print("Success! data.js regenerated with intelligent POS/Meaning auto-swap.")
+    print("Success! data.js regenerated with aggressive POS detection logic.")

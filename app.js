@@ -325,18 +325,25 @@ function renderStarredView() {
     <div class="units-header">
       <button class="back-btn" onclick="navigate('dashboard')">← Back to Overview</button>
       <h2>Starred Words (${starred.length})</h2>
+      <p style="color: var(--text-muted)">Tap the gold star to remove words you know</p>
     </div>
     <div class="dashboard-grid">
       ${starred.map(w => `
-        <div class="category-card" style="padding: 1.5rem">
+        <div class="category-card starred-item-card" style="padding: 1.5rem; position: relative;">
+          <button class="star-btn active" style="top: 1rem; right: 1rem; width: 24px; height: 24px;" onclick="event.stopPropagation(); toggleStar('${w.word.replace(/'/g, "\\'")}'); renderStarredView();">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </button>
           <div style="font-size: 1.2rem; font-weight: 700;">${w.word}</div>
-          <div style="color: var(--accent-gold); font-size: 0.9rem">[${w.pos}] ${w.meaning}</div>
+          <div style="color: var(--accent-gold); font-size: 0.9rem; margin-top: 5px;">[${w.pos}] ${w.meaning}</div>
         </div>
       `).join('')}
     </div>
   `;
+  mainContent.innerHTML = '';
   mainContent.appendChild(container);
 }
+window.renderStarredView = renderStarredView;
+window.toggleStar = toggleStar;
 
 function renderSearchResults(results) {
   if (results.length === 0) {

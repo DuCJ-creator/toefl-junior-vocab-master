@@ -2,6 +2,7 @@ import os
 import zipfile
 import xml.etree.ElementTree as ET
 import json
+import re
 
 def get_shared_strings(zf):
     try:
@@ -33,15 +34,36 @@ def parse_sheet(zf, shared_strings):
             if row_data: rows.append(row_data)
         return rows
 
+def rc_sort_key(filename):
+    name = filename.lower()
+    # 1. Preface
+    if "preface" in name: return (0, 0)
+    # 2. Diagnostic
+    if "diagnostic" in name: return (1, 0)
+    # 3. Strategies (1-9)
+    if "strategy" in name:
+        num_match = re.search(r'strategy (\d+)', name)
+        num = int(num_match.group(1)) if num_match else 99
+        return (2, num)
+    # 4. To Meet
+    if "to meet" in name or "to meet" in name.replace("meet", "meet "):
+        num_match = re.search(r'(\d+)', name)
+        num = int(num_match.group(1)) if num_match else 99
+        return (3, num)
+    # 5. To Exceed
+    if "to exceed" in name or "to exceed" in name.replace("exceed", "exceed "):
+        num_match = re.search(r'(\d+)', name)
+        num = int(num_match.group(1)) if num_match else 99
+        return (4, num)
+    return (5, name)
+
 def process_all_materials(base_path):
-    # We want a structure: [ { title: "module", units: [ { name: "...", words: [...] } ] } ]
     modules = {
         "RC": {"title": "Reading Comprehension", "units": []},
         "LC": {"title": "Listening Comprehension", "units": []},
         "LFM": {"title": "Language Form & Meaning", "units": []}
     }
 
-    # First, collect all files and categorize
     files_by_module = {"RC": [], "LC": [], "LFM": []}
     for filename in os.listdir(base_path):
         if not filename.endswith('.xlsx') or filename.startswith('.'): continue
@@ -49,10 +71,13 @@ def process_all_materials(base_path):
         elif "LFM" in filename: files_by_module["LFM"].append(filename)
         else: files_by_module["RC"].append(filename)
 
-    # Process each module
+    # Sort RC specifically
+    files_by_module["RC"].sort(key=rc_sort_key)
+    files_by_module["LC"].sort()
+    files_by_module["LFM"].sort()
+
     for m_key in ["RC", "LC", "LFM"]:
-        sorted_files = sorted(files_by_module[m_key])
-        for idx, filename in enumerate(sorted_files):
+        for idx, filename in enumerate(files_by_module[m_key]):
             file_path = os.path.join(base_path, filename)
             print(f"Parsing {m_key} Unit {idx+1}: {filename}")
             try:
@@ -63,11 +88,13 @@ def process_all_materials(base_path):
                     for row in rows:
                         word = str(row.get('A', '')).strip()
                         if not word or word.lower() in ['word', 'no.', 'no']: continue
+                        # COLUMN MAPPING (A:Word, B:POS, C:Meaning, D:EnSent, E:ZhSent)
                         words.append({
                             "word": word,
-                            "pos_meaning": str(row.get('B', '')),
-                            "en": str(row.get('C', '')),
-                            "zh": str(row.get('D', ''))
+                            "pos": str(row.get('B', '')).strip(),
+                            "meaning": str(row.get('C', '')).strip(),
+                            "en": str(row.get('D', '')).strip(),
+                            "zh": str(row.get('E', '')).strip()
                         })
                     if words:
                         modules[m_key]["units"].append({
@@ -86,4 +113,4 @@ if __name__ == "__main__":
     content = f"const VOCAB_DATA = {json.dumps(final_data, indent=2, ensure_ascii=False)};\n\nexport default VOCAB_DATA;"
     with open("data.js", "w", encoding="utf-8") as f:
         f.write(content)
-    print("Success! data.js regenerated with 1:1 file-to-unit mapping.")
+    print("Success! data.js regenerated with correct column mapping and custom RC order.")

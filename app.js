@@ -2,7 +2,7 @@ import VOCAB_DATA from './data.js';
 
 // --- State Management ---
 let currentState = {
-  view: 'dashboard', // 'dashboard', 'units', 'flashcard'
+  view: 'dashboard', // 'dashboard', 'units', 'flashcard', 'stars'
   currentModule: null,
   currentUnit: null,
   wordIndex: 0,
@@ -52,7 +52,6 @@ function startQuiz(count) {
   VOCAB_DATA.forEach(m => m.units.forEach(u => u.words.forEach(w => allWords.push(w))));
   
   if (allWords.length < count) count = allWords.length;
-  
   const shuffled = [...allWords].sort(() => 0.5 - Math.random());
   const selected = shuffled.slice(0, count);
 
@@ -72,14 +71,16 @@ function renderQuizQuestion() {
   const quiz = currentState.quiz;
   const currentWord = quiz.words[quiz.currentIndex];
   
-  // Generate Distractors
+  // Generate Distractors (using word.meaning exclusively)
   const allMeanings = [];
   VOCAB_DATA.forEach(m => m.units.forEach(u => u.words.forEach(w => {
-    if (w.pos_meaning !== currentWord.pos_meaning) allMeanings.push(w.pos_meaning);
+    if (w.meaning !== currentWord.meaning && w.meaning.length > 1) {
+      allMeanings.push(w.meaning);
+    }
   })));
   
   const distractors = [...new Set(allMeanings)].sort(() => 0.5 - Math.random()).slice(0, 3);
-  const options = [...distractors, currentWord.pos_meaning].sort(() => 0.5 - Math.random());
+  const options = [...distractors, currentWord.meaning].sort(() => 0.5 - Math.random());
 
   quizOverlay.innerHTML = `
     <div class="quiz-card">
@@ -111,7 +112,7 @@ function renderQuizQuestion() {
 
 function handleQuizAnswer(answer) {
   const quiz = currentState.quiz;
-  const correct = quiz.words[quiz.currentIndex].pos_meaning;
+  const correct = quiz.words[quiz.currentIndex].meaning;
   
   quiz.userAnswers.push({
     word: quiz.words[quiz.currentIndex].word,
@@ -172,7 +173,7 @@ function handleSearch(query) {
     module.units.forEach(unit => {
       unit.words.forEach(w => {
         if (w.word.toLowerCase().includes(query.toLowerCase()) || 
-            w.pos_meaning.toLowerCase().includes(query.toLowerCase())) {
+            w.meaning.toLowerCase().includes(query.toLowerCase())) {
           results.push({ ...w, module, unit });
         }
       });
@@ -257,9 +258,9 @@ function renderFlashcardView() {
           <div class="fc-sentence">${word.en || ''}</div>
         </div>
         <div class="flashcard-back">
-          <div class="fc-pos" style="color: var(--accent-gold); margin-bottom: 1rem;">${word.pos_meaning.split(' ')[0]}</div>
-          <div class="fc-meaning">${word.pos_meaning}</div>
-          <div class="fc-sentence" style="color: var(--text-main)">${word.zh || ''}</div>
+          <div class="fc-pos" style="color: var(--accent-gold); margin-bottom: 1rem; font-weight: 800;">[${word.pos}]</div>
+          <div class="fc-meaning" style="font-size: 1.8rem;">${word.meaning}</div>
+          <div class="fc-sentence" style="color: var(--text-main); margin-top: 1.5rem;">${word.zh || ''}</div>
         </div>
       </div>
     </div>
@@ -306,7 +307,6 @@ function nextWord() {
 }
 
 function renderStarredView() {
-  // Logic for view starred words
   const starred = [];
   VOCAB_DATA.forEach(m => m.units.forEach(u => u.words.forEach(w => {
     if (currentState.starredWords.includes(w.word)) starred.push(w);
@@ -322,7 +322,7 @@ function renderStarredView() {
       ${starred.map(w => `
         <div class="category-card" style="padding: 1.5rem">
           <div style="font-size: 1.2rem; font-weight: 700;">${w.word}</div>
-          <div style="color: var(--accent-gold); font-size: 0.9rem">${w.pos_meaning}</div>
+          <div style="color: var(--accent-gold); font-size: 0.9rem">[${w.pos}] ${w.meaning}</div>
         </div>
       `).join('')}
     </div>
@@ -336,7 +336,7 @@ function renderSearchResults(results) {
   } else {
     searchResults.innerHTML = results.map(r => `
       <div class="search-result-item" onclick="viewFromSearch('${r.word}', '${r.unit.name}', '${r.module.title}')">
-        <div class="word">${r.word} <span style="font-weight: 400; color: var(--text-muted); font-size: 0.8rem">(${r.pos_meaning})</span></div>
+        <div class="word">${r.word} <span style="font-weight: 400; color: var(--text-muted); font-size: 0.8rem">(${r.meaning})</span></div>
         <div class="meta">${r.module.title} • ${r.unit.name}</div>
       </div>
     `).join('');
@@ -358,16 +358,15 @@ globalSearch.oninput = (e) => handleSearch(e.target.value);
 homeBtn.onclick = () => navigate('dashboard');
 starsBtn.onclick = () => navigate('stars');
 challengeBtn.onclick = () => {
-    // Difficulty Selector
     quizOverlay.classList.remove('hidden');
     quizOverlay.innerHTML = `
        <div class="quiz-card">
-         <h2>Challenge ME</h2>
-         <p style="margin-bottom: 2rem;">Choose your difficulty</p>
+         <h2 style="font-size: 2rem; margin-bottom: 0.5rem;">Challenge ME</h2>
+         <p style="margin-bottom: 2rem; color: var(--text-muted)">Choose your level</p>
          <div class="quiz-options">
-            <button class="btn-primary" onclick="startQuiz(10)">10 Words (Sprint)</button>
-            <button class="btn-primary" onclick="startQuiz(30)">30 Words (Marathon)</button>
-            <button class="btn-primary" onclick="startQuiz(50)">50 Words (Legend)</button>
+            <button class="option-btn" onclick="startQuiz(10)"><span class="option-idx">⚡</span> 10 Words (Sprint)</button>
+            <button class="option-btn" onclick="startQuiz(30)"><span class="option-idx">🏆</span> 30 Words (Marathon)</button>
+            <button class="option-btn" onclick="startQuiz(50)"><span class="option-idx">💎</span> 50 Words (Legend)</button>
          </div>
          <button class="back-btn" style="margin-top: 1.5rem" onclick="quizOverlay.classList.add('hidden')">Cancel</button>
        </div>

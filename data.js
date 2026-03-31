@@ -47,24 +47,6 @@ const VOCAB_DATA = [
     ]
   },
   {
-    category: "RC Diagnostic Test",
-    units: [
-      {
-        id: 1,
-        words: [
-          { word: "absurd", pos: "adj.", meaning: "荒謬的;愚蠢的", en: "That is an absurd idea.", zh: "那是個荒謬的想法。" },
-          { word: "acceptable", pos: "adj.", meaning: "可以接受的;令人滿意的", en: "The results are acceptable.", zh: "結果是可以接受的。" },
-          { word: "accommodation", pos: "n.", meaning: "適應;方便設施;住處", en: "They are looking for accommodation.", zh: "他們正在尋找住處。" },
-          { word: "acknowledge", pos: "v.", meaning: "承認;就……表示謝忱", en: "He acknowledged the gift.", zh: "他對禮物表示感謝。" },
-          { word: "adaptation", pos: "n.", meaning: "適應;改寫", en: "The film is an adaptation of a novel.", zh: "這部電影是由小說改編的。" },
-          { word: "admire", pos: "v.", meaning: "欽佩;欣賞", en: "I admire your courage.", zh: "我欽佩你的勇氣。" },
-          { word: "admission", pos: "n.", meaning: "進入許可;入場費;承認", en: "Admission is free for children.", zh: "兒童免費入場。" },
-          { word: "adopt", pos: "v.", meaning: "採納;收養;接受", en: "They decided to adopt a child.", zh: "他們決定收養一個孩子。" }
-        ]
-      }
-    ]
-  },
-  {
     category: "RC Strategy 1: Main Idea",
     units: [
       {
@@ -77,7 +59,114 @@ const VOCAB_DATA = [
           { word: "addiction", pos: "n.", meaning: "成癮", en: "Drug addiction is a serious problem.", zh: "毒品成癮是一個嚴重的問題。" },
           { word: "adjust", pos: "v.", meaning: "調整", en: "She adjusted the seat to make it more comfortable.", zh: "她調整了座椅，使其更舒適。" },
           { word: "adjustment", pos: "n.", meaning: "調整", en: "A small adjustment can make a big difference.", zh: "一個小調整可能帶來很大的不同。" },
-          { word: "advertising", pos: "n.", meaning: "廣告業；廣告宣傳", en: "The company spent millions on advertising.", zh: "這家公司在廣告上花費了數百萬。" }
+          { word: "advertising", pos: "n.", meaning: "廣告業；廣告宣傳", en: "The company spent millions on advertising.", zh: "這家公司在廣告上花費了數百萬。" },
+          { word: "amazingly", pos: "adv.", meaning: "令人驚訝地", en: "The baby learned to walk amazingly fast.", zh: "這個嬰兒學走路的速度令人驚訝。" },
+          { word: "analyze", pos: "v.", meaning: "分析", en: "Scientists analyze data to find solutions.", zh: "科學家分析數據以尋找解決方案。" },
+          { word: "applicant", pos: "n.", meaning: "申請人", en: "There were many applicants for the job.", zh: "這份工作有很多申請人。" },
+          { word: "approval", pos: "n.", meaning: "批准；認可", en: "The project is waiting for government approval.", zh: "這個專案正在等待政府批准。" },
+          { word: "approve", pos: "v.", meaning: "批准；同意", en: "The manager approved my vacation request.", zh: "經理批准了我的休假申請。" },
+          { word: "aspect", pos: "n.", meaning: "方面", en: "Exercise is an important aspect of a healthy lifestyle.", zh: "運動是健康生活方式的一個重要方面。" },
+          { word: "astronaut", pos: "n.", meaning: "太空人", en: "The astronaut spent six months in space.", zh: "這名太空人在太空待了六個月。" },
+          { word: "attitude", pos: "n.", meaning: "態度", en: "He has a positive attitude towards work.", zh: "他對工作持積極的態度。" }
+        ]
+      },
+      {
+        id: 2,
+        words: [
+          { word: "audience", pos: "n.", meaning: "觀眾", en: "The audience applauded the performance.", zh: "觀眾為表演鼓掌。" },
+          { word: "bachelor", pos: "n.", meaning: "單身漢；學士學位", en: "He received his bachelor’s degree in engineering.", zh: "他獲得了工程學學士學位。" },
+          { word: "beneficial", pos: "adj.", meaning: "有益的", en: "A balanced diet is beneficial to your health.", zh: "均衡飲食對健康有益。" },
+          { word: "benefit", pos: "n./v.", meaning: "好處；受益", en: "Everyone benefits from regular exercise.", zh: "定期運動讓每個人受益。" },
+          { word: "block", pos: "v./n.", meaning: "阻擋；街區", en: "The road was blocked by fallen trees.", zh: "這條路被倒下的樹木阻擋了。" },
+          { word: "bolt", pos: "n./v.", meaning: "螺栓；快速移動", en: "He tightened the bolts on the machine.", zh: "他擰緊了機器上的螺栓。" },
+          { word: "bored", pos: "adj.", meaning: "無聊的", en: "She felt bored during the long meeting.", zh: "她在冗長的會議中感到無聊。" },
+          { word: "calculation", pos: "n.", meaning: "計算", en: "His calculation of the costs was incorrect.", zh: "他對成本的計算是錯誤的。" },
+          { word: "calorie", pos: "n.", meaning: "卡路里", en: "This snack contains 200 calories.", zh: "這款零食含有 200 卡路里。" },
+          { word: "career", pos: "n.", meaning: "職業", en: "She has a successful career in law.", zh: "她在法律界擁有成功的職業生涯。" },
+          { word: "central", pos: "adj.", meaning: "中央的；主要的", en: "The park is located in the central part of the city.", zh: "這座公園位於城市的中心部分。" },
+          { word: "challenger", pos: "n.", meaning: "挑戰者", en: "He is the main challenger in the boxing match.", zh: "他是這場拳擊比賽的主要挑戰者。" },
+          { word: "clue", pos: "n.", meaning: "線索", en: "The police found a clue at the crime scene.", zh: "警察在犯罪現場發現了一條線索。" },
+          { word: "communicate", pos: "v.", meaning: "溝通", en: "It is important to communicate clearly.", zh: "清楚溝通很重要。" },
+          { word: "community", pos: "n.", meaning: "社區", en: "He is an active member of the local community.", zh: "他是當地社區的活躍成員。" },
+          { word: "complicated", pos: "adj.", meaning: "複雜的", en: "The instructions were too complicated to follow.", zh: "這些說明過於複雜，難以遵循。" }
+        ]
+      }
+    ]
+  },
+  {
+    category: "RC Strategy 2: Text Structure",
+    units: [
+      {
+        id: 1,
+        words: [
+          { word: "academic", pos: "adj.", meaning: "學術的", en: "She has a strong academic background.", zh: "她在學術上有很強的背景。" },
+          { word: "accomplish", pos: "v.", meaning: "實現", en: "He worked hard to accomplish his goals.", zh: "他努力實現自己的目標。" },
+          { word: "admiring", pos: "adj.", meaning: "欽佩的", en: "She looked at him with admiring eyes.", zh: "她以欽佩的眼光看著他。" },
+          { word: "anxious", pos: "adj.", meaning: "焦慮的", en: "She felt anxious before the exam.", zh: "她在考試前感到焦慮。" },
+          { word: "appreciation", pos: "n.", meaning: "欣賞", en: "Show your appreciation for their hard work.", zh: "對他們的辛勤工作表示欣賞。" },
+          { word: "assist", pos: "v.", meaning: "協助", en: "I will assist you in completing the project.", zh: "我將協助你完成這個項目。" },
+          { word: "atmosphere", pos: "n.", meaning: "氛圍", en: "The atmosphere in the room was tense.", zh: "房間的氛圍很緊張。" },
+          { word: "attitude", pos: "n.", meaning: "態度", en: "Your attitude towards work is important.", zh: "你對工作的態度很重要。" },
+          { word: "awake", pos: "adj./v.", meaning: "醒著的 / 喚醒", en: "She was awake all night studying.", zh: "她整夜都醒著讀書。" },
+          { word: "aware", pos: "adj.", meaning: "察覺到的", en: "Are you aware of the consequences?", zh: "你察覺到後果了嗎？" },
+          { word: "bacon", pos: "n.", meaning: "培根", en: "I love the smell of sizzling bacon.", zh: "我喜歡培根嘶嘶作響的香味。" },
+          { word: "balance", pos: "n./v.", meaning: "平衡 / 平衡", en: "Finding a balance in life is essential.", zh: "在生活中找到平衡是必要的。" },
+          { word: "basis", pos: "n.", meaning: "基礎", en: "The decision was made on the basis of facts.", zh: "決策是基於事實的基礎上做出的。" },
+          { word: "community", pos: "n.", meaning: "社區", en: "The community came together to support each other.", zh: "社區齊心協力相互支持。" },
+          { word: "comprehension", pos: "n.", meaning: "理解", en: "His comprehension of the topic was impressive.", zh: "他對這個主題的理解令人印象深刻。" },
+          { word: "concepts", pos: "n.", meaning: "概念", en: "The teacher explained complex concepts clearly.", zh: "老師清晰地解釋了复雜的概念。" }
+        ]
+      }
+    ]
+  },
+  {
+    category: "RC Strategy 3: Purpose & Tone",
+    units: [
+      {
+        id: 1,
+        words: [
+          { word: "academic", pos: "adj./n.", meaning: "學術的；學者", en: "He has a strong academic background.", zh: "他有很強的學術背景。" },
+          { word: "accomplish", pos: "v.", meaning: "完成；達成", en: "She accomplished all her goals this year.", zh: "她今年完成了所有目標。" },
+          { word: "admire", pos: "v.", meaning: "欣賞；敬佩", en: "I really admire her hard work.", zh: "我非常欽佩她的努力。" },
+          { word: "anxious", pos: "adj.", meaning: "焦慮的；擔心的", en: "She felt anxious about her exam.", zh: "她對考試感到焦慮。" },
+          { word: "appreciation", pos: "n.", meaning: "感激；欣賞", en: "He showed his appreciation for their help.", zh: "他對他們的幫助表示感激。" },
+          { word: "assist", pos: "v.", meaning: "協助；幫助", en: "The nurse assisted the doctor during the surgery.", zh: "護士在手術過程中協助醫生。" },
+          { word: "atmosphere", pos: "n.", meaning: "氣氛；大氣", en: "The restaurant has a cozy atmosphere.", zh: "這家餐廳有溫馨的氛圍。" },
+          { word: "attitude", pos: "n.", meaning: "態度", en: "His positive attitude helped him succeed.", zh: "他的積極態度幫助他成功。" },
+          { word: "awake", pos: "adj./v.", meaning: "醒著的；喚醒", en: "He stayed awake all night.", zh: "他整夜未眠。" },
+          { word: "aware", pos: "adj.", meaning: "意識到的；知道的", en: "She is aware of the risks involved.", zh: "她意識到涉及的風險。" },
+          { word: "bacon", pos: "n.", meaning: "培根", en: "He had eggs and bacon for breakfast.", zh: "他早餐吃了雞蛋和培根。" },
+          { word: "community", pos: "n.", meaning: "社區；群體", en: "The local community organized a charity event.", zh: "當地社區組織了一場慈善活動。" },
+          { word: "comprehension", pos: "n.", meaning: "理解；理解力", en: "Reading comprehension is important for learning.", zh: "閱讀理解對學習很重要。" },
+          { word: "concept", pos: "n.", meaning: "概念", en: "The concept of gravity was explained by Newton.", zh: "牛頓解釋了重力的概念。" },
+          { word: "convince", pos: "v.", meaning: "說服", en: "He convinced me to join the club.", zh: "他說服我加入這個俱樂部。" },
+          { word: "dairy", pos: "n./adj.", meaning: "乳製品；乳品的", en: "She avoids dairy because she is lactose intolerant.", zh: "她因為乳糖不耐症而避免食用乳製品。" }
+        ]
+      }
+    ]
+  },
+  {
+    category: "LC To Exceed 1-5",
+    units: [
+      {
+        id: 1,
+        words: [
+          { word: "abundance", pos: "n.", meaning: "豐富；大量", en: "The forest has an abundance of wildlife.", zh: "這片森林有豐富的野生動物。" },
+          { word: "amphibian", pos: "n.", meaning: "兩棲動物", en: "Frogs and salamanders are amphibians.", zh: "青蛙和蠑螈是兩棲動物。" },
+          { word: "Antarctica", pos: "n.", meaning: "南極洲", en: "Antarctica is the coldest continent on Earth.", zh: "南極洲是地球上最寒冷的大陸。" },
+          { word: "appointment", pos: "n.", meaning: "預約；約會", en: "I have a doctor's appointment at 3 PM.", zh: "我下午三點有個看診預約。" },
+          { word: "arrange", pos: "v.", meaning: "安排；整理", en: "She arranged the books on the shelf.", zh: "她整理了書架上的書。" },
+          { word: "astronomical", pos: "adj.", meaning: "天文的；極大的", en: "The cost of the project is astronomical.", zh: "這個專案的成本非常高。" },
+          { word: "basin", pos: "n.", meaning: "盆地；水盆", en: "The Amazon Basin is home to diverse species.", zh: "亞馬遜盆地是多種物種的棲息地。" },
+          { word: "biodiversity", pos: "n.", meaning: "生物多樣性", en: "Biodiversity is essential for a healthy ecosystem.", zh: "生物多樣性對健康的生態系統至關重要。" },
+          { word: "biologist", pos: "n.", meaning: "生物學家", en: "The biologist studies marine life.", zh: "這位生物學家研究海洋生物。" },
+          { word: "carbon", pos: "n.", meaning: "碳", en: "Carbon is an essential element in all living organisms.", zh: "碳是所有生物體內不可或缺的元素。" },
+          { word: "carbon dioxide", pos: "n.", meaning: "二氧化碳", en: "Plants absorb carbon dioxide during photosynthesis.", zh: "植物在光合作用時吸收二氧化碳。" },
+          { word: "characteristic", pos: "n./adj.", meaning: "特徵；典型的", en: "One characteristic of cats is their agility.", zh: "貓的一個特徵是它們的敏捷性。" },
+          { word: "collection", pos: "n.", meaning: "收藏；收集物", en: "She has a collection of rare stamps.", zh: "她有一個稀有郵票的收藏。" },
+          { word: "comprehension", pos: "n.", meaning: "理解力", en: "Reading comprehension is an important skill.", zh: "閱讀理解力是一項重要技能。" },
+          { word: "confess", pos: "v.", meaning: "承認；坦白", en: "He confessed to stealing the money.", zh: "他承認偷了錢。" },
+          { word: "consequence", pos: "n.", meaning: "後果；結果", en: "His actions had serious consequences.", zh: "他的行為產生了嚴重的後果。" }
         ]
       }
     ]

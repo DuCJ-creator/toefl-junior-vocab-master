@@ -17,6 +17,19 @@ let currentState = {
   }
 };
 
+function speakWord(word, btn) {
+  if (!window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(word);
+  utterance.lang = 'en-US';
+  utterance.rate = 0.85;
+  utterance.pitch = 1;
+  btn.classList.add('speaking');
+  utterance.onend = () => btn.classList.remove('speaking');
+  utterance.onerror = () => btn.classList.remove('speaking');
+  window.speechSynthesis.speak(utterance);
+}
+
 // --- DOM Elements ---
 const mainContent = document.getElementById('main-content');
 const globalSearch = document.getElementById('global-search');

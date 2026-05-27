@@ -8,6 +8,7 @@ let currentState = {
   wordIndex: 0,
   isFlipped: false,
   starredWords: JSON.parse(localStorage.getItem('vocab_stars') || '[]'),
+  autoplayEnabled: localStorage.getItem('vocab_autoplay') === 'true',
   quiz: {
     active: false,
     words: [],
@@ -17,18 +18,55 @@ let currentState = {
   }
 };
 
-function speakWord(word, btn) {
-  if (!window.speechSynthesis) return;
+// --- Speech Synthesis (Pronunciation) ---
+window.speak = function(text, rate = 0.85, btnElement = null) {
+  if (!('speechSynthesis' in window)) {
+    console.warn('Speech synthesis not supported in this browser.');
+    return;
+  }
+  
   window.speechSynthesis.cancel();
-  const utterance = new SpeechSynthesisUtterance(word);
+  
+  if (!text) return;
+  
+  const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = 'en-US';
-  utterance.rate = 0.85;
-  utterance.pitch = 1;
-  btn.classList.add('speaking');
-  utterance.onend = () => btn.classList.remove('speaking');
-  utterance.onerror = () => btn.classList.remove('speaking');
+  utterance.rate = rate;
+  
+  const voices = window.speechSynthesis.getVoices();
+  const preferredVoice = voices.find(v => 
+    v.lang.startsWith('en') && 
+    (v.name.includes('Google') || v.name.includes('Natural') || v.name.includes('Samantha') || v.name.includes('Microsoft David'))
+  ) || voices.find(v => v.lang.startsWith('en'));
+  
+  if (preferredVoice) {
+    utterance.voice = preferredVoice;
+  }
+  
+  if (btnElement) {
+    btnElement.classList.add('speaking');
+    utterance.onend = () => btnElement.classList.remove('speaking');
+    utterance.onerror = () => btnElement.classList.remove('speaking');
+  }
+  
   window.speechSynthesis.speak(utterance);
+};
+
+// Pre-fetch voices for instant playback
+if ('speechSynthesis' in window) {
+  window.speechSynthesis.getVoices();
+  if (window.speechSynthesis.onvoiceschanged !== undefined) {
+    window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
+  }
 }
+
+// Reusable SVG speaker icon string for TTS buttons
+const speakIcon = `
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none; display: block;">
+    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+    <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+  </svg>
+`;
 
 // --- DOM Elements ---
 const mainContent = document.getElementById('main-content');
@@ -267,21 +305,42 @@ function renderFlashcardView() {
   const container = document.createElement('div');
   container.className = 'flashcard-container';
   container.innerHTML = `
-    <div class="units-header" style="width: 100%">
-      <button class="back-btn" id="to-units">← Back to Units</button>
+    <div class="units-header" style="width: 100%; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+      <button class="back-btn" id="to-units" style="margin-bottom: 0;">← Back to Units</button>
       <div style="text-align: center; color: var(--text-muted)">${unit.name} • Word ${currentState.wordIndex + 1} of ${unit.words.length}</div>
+      <div class="autoplay-panel">
+        <span>Auto-Play Pronunciation</span>
+        <label class="switch">
+          <input type="checkbox" id="autoplay-toggle" ${currentState.autoplayEnabled ? 'checked' : ''}>
+          <span class="slider"></span>
+        </label>
+      </div>
     </div>
     <div class="flashcard-wrapper" id="flip-trigger">
       <div class="flashcard ${currentState.isFlipped ? 'flipped' : ''}">
         <div class="flashcard-front">
           <button class="star-btn ${isStarred ? 'active' : ''}"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="${isStarred ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></button>
-          <div class="fc-word">${word.word}</div>
-          <div class="fc-sentence">${word.en || ''}</div>
+          
+          <div class="fc-word-wrapper">
+            <div class="fc-word">${word.word}</div>
+            <button class="pronounce-btn speak-word-btn" title="Pronounce Word" style="width: 36px; height: 36px;">${speakIcon}</button>
+          </div>
+          
+          <div class="fc-sentence-wrapper">
+            <div class="fc-sentence" style="margin-bottom: 0;">${word.en || ''}</div>
+            ${word.en ? `<button class="pronounce-btn speak-sentence-btn" title="Pronounce Sentence" style="width: 28px; height: 28px; flex-shrink: 0;">${speakIcon}</button>` : ''}
+          </div>
         </div>
         <div class="flashcard-back">
-          <div class="fc-pos" style="color: var(--accent-gold); margin-bottom: 1rem; font-weight: 800;">[${word.pos}]</div>
-          <div class="fc-meaning" style="font-size: 1.8rem;">${word.meaning}</div>
-          <div class="fc-sentence" style="color: var(--text-main); margin-top: 1.5rem;">${word.zh || ''}</div>
+          <div class="fc-pos" style="color: var(--accent-gold); margin-bottom: 0.5rem; font-weight: 800;">[${word.pos}]</div>
+          
+          <div class="fc-word-wrapper" style="margin-bottom: 1rem; opacity: 0.75;">
+            <span style="font-size: 1.3rem; font-weight: 600; color: var(--text-muted); margin-right: 0.5rem;">${word.word}</span>
+            <button class="pronounce-btn speak-word-btn" title="Pronounce Word" style="width: 28px; height: 28px;">${speakIcon}</button>
+          </div>
+          
+          <div class="fc-meaning" style="font-size: 1.8rem; margin-bottom: 1rem;">${word.meaning}</div>
+          <div class="fc-sentence" style="color: var(--text-main); margin-top: 1rem;">${word.zh || ''}</div>
         </div>
       </div>
     </div>
@@ -294,9 +353,35 @@ function renderFlashcardView() {
 
   mainContent.appendChild(container);
 
+  // Speak Button Interaction
+  container.querySelectorAll('.speak-word-btn').forEach(btn => {
+    btn.onclick = (e) => {
+      e.stopPropagation();
+      speak(word.word, 0.85, btn);
+    };
+  });
+
+  const speakSentenceBtn = container.querySelector('.speak-sentence-btn');
+  if (speakSentenceBtn) {
+    speakSentenceBtn.onclick = (e) => {
+      e.stopPropagation();
+      speak(word.en, 0.8, speakSentenceBtn);
+    };
+  }
+
+  // Autoplay switch listener
+  const autoplayToggle = container.querySelector('#autoplay-toggle');
+  if (autoplayToggle) {
+    autoplayToggle.onchange = (e) => {
+      currentState.autoplayEnabled = e.target.checked;
+      localStorage.setItem('vocab_autoplay', e.target.checked);
+    };
+  }
+
   // Interaction Logic
   document.getElementById('to-units').onclick = () => navigate('units');
   document.getElementById('flip-trigger').onclick = () => { currentState.isFlipped = !currentState.isFlipped; render(); };
+  document.getElementById('flip-btn').onclick = (e) => { e.stopPropagation(); currentState.isFlipped = !currentState.isFlipped; render(); };
   document.getElementById('prev-btn').onclick = (e) => { e.stopPropagation(); prevWord(); };
   document.getElementById('next-btn').onclick = (e) => { e.stopPropagation(); nextWord(); };
   container.querySelector('.star-btn').onclick = (e) => { e.stopPropagation(); toggleStar(word.word); };
@@ -309,6 +394,14 @@ function renderFlashcardView() {
     if (diff > 50) prevWord();
     if (diff < -50) nextWord();
   };
+
+  // Auto-play pronunciation if enabled and front of card is active
+  if (currentState.autoplayEnabled && !currentState.isFlipped) {
+    setTimeout(() => {
+      const activeWordBtn = container.querySelector('.flashcard-front .speak-word-btn');
+      speak(word.word, 0.85, activeWordBtn);
+    }, 120);
+  }
 }
 
 function prevWord() {
@@ -346,7 +439,12 @@ function renderStarredView() {
           <button class="star-btn active" style="top: 1rem; right: 1rem; width: 24px; height: 24px;" onclick="event.stopPropagation(); toggleStar('${w.word.replace(/'/g, "\\'")}'); renderStarredView();">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
           </button>
-          <div style="font-size: 1.2rem; font-weight: 700;">${w.word}</div>
+          <div style="font-size: 1.2rem; font-weight: 700; display: flex; align-items: center; gap: 0.5rem; margin-right: 2rem;">
+            <span>${w.word}</span>
+            <button class="pronounce-btn" title="Pronounce Word" onclick="event.stopPropagation(); speak('${w.word.replace(/'/g, "\\'")}', 0.85, this);">
+              ${speakIcon}
+            </button>
+          </div>
           <div style="color: var(--accent-gold); font-size: 0.9rem; margin-top: 5px;">[${w.pos}] ${w.meaning}</div>
         </div>
       `).join('')}
@@ -364,7 +462,12 @@ function renderSearchResults(results) {
   } else {
     searchResults.innerHTML = results.map(r => `
       <div class="search-result-item" onclick="viewFromSearch('${r.word}', '${r.unit.name}', '${r.module.title}')">
-        <div class="word">${r.word} <span style="font-weight: 400; color: var(--text-muted); font-size: 0.8rem">(${r.meaning})</span></div>
+        <div class="word" style="display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; width: 100%;">
+          <span>${r.word} <span style="font-weight: 400; color: var(--text-muted); font-size: 0.8rem">(${r.meaning})</span></span>
+          <button class="pronounce-btn" title="Pronounce Word" onclick="event.stopPropagation(); speak('${r.word.replace(/'/g, "\\'")}', 0.85, this);">
+            ${speakIcon}
+          </button>
+        </div>
         <div class="meta">${r.module.title} • ${r.unit.name}</div>
       </div>
     `).join('');
